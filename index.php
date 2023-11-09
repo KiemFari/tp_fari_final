@@ -24,7 +24,7 @@
    rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
     crossorigin="anonymous">
   <link rel="stylesheet" href="./style.css">
-    <title>Site E_CUMMERCE</title>
+    <title>Site E_COMMERCE</title>
 </head>
 <body>
            <?php include ("nav.php"); ?>
@@ -43,8 +43,68 @@
     
     </header> -->
 <!-- ------acceuil section --------->
+<section class="home" style="">
+<h2>E_commerce</h2>
+<h1>MA COMMANDE EN LIGNE</h1>
+<P>UN SITE DE COMMERCE EN LIGNE QUI VOUS FACILITE VOS ACHATS A TRAVERS LE BURKINA FASO</P>
+<button class="btn btn-primary">Visiter la page</button>
+<button href="Inscription.php" class="btn btn-secondary">Commander ici</button>
 
 
+</section>
+<section class="home-next">
+<h1>La structure</h1>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+    Sapiente soluta tenetur expedita, quisquam incidunt ratione
+     repellat reprehenderit veritatis atque fugit ex ea.
+     Aspernatur ut sequi labore maxime quibusdam eius nulla? Lorem
+      ipsum, dolor sit amet consectetur adipisicing elit.
+       Cumque enim soluta eius, aut blanditiis fugit officia quisquam,
+        sapiente minus quibusdam rerum quod? Odit aliquam ea doloremque
+         quidem mollitia tempora sed! Lorem ipsum dolor sit amet consectetur, 
+         adipisicing elit. Esse corporis adipisci nam similique mollitia asperiores
+          vitae minus odio modi eveniet accusamus hic placeat, consequuntur officiis,
+           reprehenderit exercitationem neque consectetur aliquid?</p>
+</section>
+<section class="visite">
+<div class="card">
+    <div class="card-body">
+        <img src="./2.jpg" alt="">
+        <h2>Achat</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+             Doloribus voluptatem quidem unde praesentium nesciunt, 
+             nisi corporis repellendus ab porro perferendis
+             iste vero numquam labore ratione vel veniam laborum. Eveniet, cum?</p>
+             <button class="btn btn-primary">Decouvrez</button>
+            </div>
+    
+    <div class="card-body">
+        <img src="./2.jpg" alt="">
+        <h2>Galerie</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+             Doloribus voluptatem quidem unde praesentium nesciunt, 
+             nisi corporis repellendus ab porro perferendis
+             iste vero numquam labore ratione vel veniam laborum. Eveniet, cum?</p>
+             <button class="btn btn-primary">Decouvrez</button>
+    </div>
+    <div class="card-body">
+        <img src="./2.jpg" alt="">
+        <h2>Blog</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+             Doloribus voluptatem quidem unde praesentium nesciunt, 
+             nisi corporis repellendus ab porro perferendis
+             iste vero numquam labore ratione vel veniam laborum. Eveniet, cum?</p>
+             <button class="btn btn-primary">Decouvrez</button>
+    </div>
+</div>
+</section>
+
+ <!------- Call to Action ------>
+
+ <section class="cta">
+        <h1>Suivez nous partout dans le monde </h1>
+        <a href="contact.php" class="hero-btn">CONTACTER NOUS</a>
+    </section>
 
 <!-- lier footer -->
 <!-- <?php include ("footer.php")?> -->

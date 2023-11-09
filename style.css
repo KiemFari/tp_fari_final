@@ -72,7 +72,7 @@ header .logo a span{
 .acceuil{
     display: flex;
     justify-content: space-around;
-    background-color: aqua;
+    background-color: rgb(164, 27, 27);
 }
 .left {
     padding-left: 200px; 
@@ -92,4 +92,94 @@ header .logo a span{
 .acceuilli img{
     height: 300px;
     width: 300px;
+}
+/*............ home page ............ */
+ .home{
+
+    background-image: linear-gradient(rgba(68, 63, 64, 0.897),rgba(128, 117, 117, 0.897)),url(2.jpg);
+    min-height: 80vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+     transform: none
+     
+     
+
+    
+}
+.home h1{
+    
+    padding-top: 60px;
+    color: green;
+    text-align: center;
+    
+}
+.home h2{
+
+    padding-top: 60px;
+    text-align: center;
+    
+}
+.home p{
+    padding-top: 60px;
+    text-align: center;  
+}
+.btn{
+    
+    color: green;
+    font-size: 14px;
+    bottom: 2px solid #235440;
+    padding: 10px 20px;
+    transition: 0.5s;
+    text-align: center;
+}
+.home-next{
+    text-align: center;
+    background-color: green;
+}
+.visite{
+    display: flex;
+    justify-content: space-around;
+    background-color: green;
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+    background-color: azure;
+}
+.card img{
+    height: 300px;
+    width: 300px;
+}
+
+
+/*----- Call to action ------*/
+
+.cta{
+    margin: 100px auto;
+    width: 80%;
+    /* background-image: linear-gradient
+    (rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(./cours\ en\ ligne.jpg);
+    background: linear-gradient
+    (rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(./ctct.jpg); */
+    background-image: linear-gradient(rgba(227, 229, 236, 0.486),rgba(14, 9, 56, 0.7)),url(2.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+    opacity: 0.9;
+
+}
+.cta h1{
+    color: blue;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+@media (max-width: 300px) {
+   .cta{
+    font-size: 24px;
+   } 
+
 }
