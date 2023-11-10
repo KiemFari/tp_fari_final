@@ -13,6 +13,12 @@ php{
     /* background-color: #111; */
     /* background-color: #ccc; */
 /* } */
+/* logo */
+.shop{
+height: 30px;
+width: 30px;
+}
+
 section{
     margin-top: 50px;
 }
@@ -96,7 +102,7 @@ header .logo a span{
 /*............ home page ............ */
  .home{
 
-    background-image: linear-gradient(rgba(68, 63, 64, 0.897),rgba(128, 117, 117, 0.897)),url(2.jpg);
+    background-image: linear-gradient(rgba(171, 182, 171, 0.897),rgba(239, 232, 232, 0.897)),url(2.jpg);
     min-height: 80vh;
     width: 100%;
     background-position: center;
@@ -125,7 +131,7 @@ header .logo a span{
     padding-top: 60px;
     text-align: center;  
 }
-.btn{
+.home .btn{
     
     color: green;
     font-size: 14px;
@@ -133,24 +139,34 @@ header .logo a span{
     padding: 10px 20px;
     transition: 0.5s;
     text-align: center;
+    margin-left: 250px;
 }
 .home-next{
     text-align: center;
-    background-color: green;
+    background-color: rgb(228, 228, 228);
 }
-.visite{
-    display: flex;
-    justify-content: space-around;
-    background-color: green;
+.home-next p{
+    padding-left: 300px;
+    padding-right: 300px;
+    
 }
+
+
+ .visite{
+    margin-left: 250px;
+    
+} 
 .card{
     display: flex;
-    justify-content: space-around;
-    background-color: azure;
+    background-color: rgb(228, 228, 228);
+    justify-content: space-evenly;
+    text-align-last: center;
+    
+
 }
 .card img{
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
 }
 
 
@@ -182,4 +198,135 @@ header .logo a span{
     font-size: 24px;
    } 
 
+}
+
+
+/*......... entreprise ...............*/
+.entre{
+border:2px solid #9f9999;
+margin-left: 100px;
+margin-right: 100px;
+
+}
+.entre a{
+color: #000;
+    border-radius: 2px solid #cbbebe;
+    margin-left: 700px;
+    color: rgb(164, 162, 173);
+    font-size: 14px;
+    bottom: 2px solid #c9d3cf;
+    padding: 10px 20px;
+    transition: 0.5s;
+    text-align: center;
+    border:1px  #999f9a;
+    background-color: #235440;
+
+}
+
+/* span */
+span{
+   display: block;
+    border-bottom: 2px solid #dfe4ec;
+    width: 50%;
+    height: 1px;
+    margin: 60px auto;
+}
+/* -----FOOTER ---- */
+.footer{
+    padding: 50px;
+    background-color: rgb(228, 228, 228);
+    padding: 70px;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-footer{
+    margin-top: 6.2rem;
+    margin-bottom: 30px;
+}
+.img-footer p{
+    font-size: 1rem;
+    color: #ffffff;
+
+}
+.iconse{
+    margin-bottom: 10px;
+    color: #afa2a2;
+    display: flex;
+    height: 30px;
+    width: 30px;
+    
+}
+.img-footer i{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    color: var(--main-color);
+    border-radius: 50%;
+    backdrop-filter: brightness(88%);
+    font-size: 20px;
+    margin-right: 17px;
+    box-shadow: 0 0 20px transparent;
+    cursor: pointer;
+    transition: all.50s ease;
+    color: #c6c0c0;
+
+}
+.footer h1{
+    font-size: 50px;
+    color: green;
+}
+/* .temoignage.......... */
+.tamoigne{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.tamoigne img{
+
+    width: 100px;
+    height: 100px;
+}
+
+/* ....................contact........... */
+.contact{
+    background-image: linear-gradient(rgba(227, 229, 236, 0.486),rgba(14, 9, 56, 0.7)),url(2.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+    opacity: 0.9;
+}
+section#contact{
+    background-color: rgb(228, 228, 228);
+}
+
+section#contact form{
+    width: 50%;
+    margin: 30px auto;
+}
+section#contact form label,
+section#contact form input{
+   display: block; 
+   width: 100%;
+}
+section#contact form input{
+    margin-bottom: 10px;
+}
+section#contact form button{
+    display: block;
+    margin: 20px auto;
+    padding: 5px 20px;
+    font-family: inherit;
+    cursor: pointer;
+    background-color: #0044ff;
+}
+section#contact form p{
+    padding: 0;
 }

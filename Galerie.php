@@ -1,4 +1,4 @@
-Galerie.php
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,28 +29,69 @@ Galerie.php
         </nav> 
     
     </header> -->
+    <section>
+        
+            <h1>Annuaires des entreprises prèsentes</h1><br>
+            <div class="entre">
+           <h2>Les professionnelles se presentent</h2>
+           <p>ILS presentent leurs produits à travers le site web , avec une possibilitès de commander en ligne et de recevoir les produits sous livraison ,possiblitès de payement en ligne</p>
+           <a href="inscription.php">inscriver votre entreprise sur "Ma commande"</a>
+        </div>
+
+        <span></span>
+       
+        <span></span>
+
+    </section>
 <!-- ------acceuil section --------->
-
-<section class="acceuil">
-<div class="left">
-    <h2>Collection 2023</h2>
-    <h1>Nouvelles collection</h1>
-    <button class="btn btn-primary">cliquer plus</button>
-</div>
-<div class="right">
-    <img src="./2.jpg" alt="">
-</div>
-</section>
-<section class="acceuilli">
-    <div>
-        <img src="./2.jpg" alt="">
-        <img src="./2.jpg" alt="">
-        <img src="./2.jpg" alt="">
+<div class="row row-cols-1 row-cols-md-4 g-10">
+  <div class="col">
+    <div class="card">
+      <img src="shop.jfif" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Ridoss shop</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+     <a href="">habit femme</a><br>
+     <a href="">habit homme</a>
     </div>
-</section>
-
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="bazin.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Bazin KNB</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <a href="">vente bazin</a><br>
+    <a href="">vente pagne</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="pagne.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">pagne traditionnel</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <a href="">pagne traditionel</a><br>
+            <a href="">Mossi et autres</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="koko.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"> pagne kokodonda</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <a href="">vente kokodonda</a><br>
+        <a href="">bogolan et pagne afrique</a>
+      </div>
+    </div>
+  </div>
+</div>
 <!-- lier footer -->
-<?php include ("footer.php")?>
+<?php include ("Footer.php")?>
 
     </body>
 </html>

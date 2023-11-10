@@ -30,6 +30,9 @@
            <?php include ("nav.php"); ?>
        
      <!-- <?php include ("fari.php"); ?>  -->
+
+
+     
 <!-- <header> 
          <nav>
             <ul>
@@ -44,8 +47,8 @@
     </header> -->
 <!-- ------acceuil section --------->
 <section class="home" style="">
-<h2>E_commerce</h2>
-<h1>MA COMMANDE EN LIGNE</h1>
+<h2>Ma commande en ligne</h2>
+<h1>Burkina shop</h1>
 <P>UN SITE DE COMMERCE EN LIGNE QUI VOUS FACILITE VOS ACHATS A TRAVERS LE BURKINA FASO</P>
 <button class="btn btn-primary">Visiter la page</button>
 <button href="Inscription.php" class="btn btn-secondary">Commander ici</button>
@@ -54,60 +57,99 @@
 </section>
 <section class="home-next">
 <h1>La structure</h1>
-<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-    Sapiente soluta tenetur expedita, quisquam incidunt ratione
-     repellat reprehenderit veritatis atque fugit ex ea.
-     Aspernatur ut sequi labore maxime quibusdam eius nulla? Lorem
-      ipsum, dolor sit amet consectetur adipisicing elit.
-       Cumque enim soluta eius, aut blanditiis fugit officia quisquam,
-        sapiente minus quibusdam rerum quod? Odit aliquam ea doloremque
-         quidem mollitia tempora sed! Lorem ipsum dolor sit amet consectetur, 
-         adipisicing elit. Esse corporis adipisci nam similique mollitia asperiores
-          vitae minus odio modi eveniet accusamus hic placeat, consequuntur officiis,
-           reprehenderit exercitationem neque consectetur aliquid?</p>
+<p>Le site Burkina"Shop" est un site en ligne qui vous permet de faciliter 
+    vos achats partout au  Burkina faso sans deplacemment et à moindre coùt. 
+ma mission à travers le site en effet c'est de faciliter  chez Burkina shop, nous pensons que le développement du pays passe 
+par une progression des affaires réalisées par les acteurs économiques locaux.
+
+Nous sommes convaincus que les pub des articles aideront à servir cette finalité.
+ C'est pourquoi nous développons et popularisons des services en ligne dédiés qui permettent de favoriser
+ les interactions économiques entre tous les professionnels Burkinabè.</p>
 </section>
 <section class="visite">
+<div class="row row-cols-1 row-cols-md-4 g-10">
+    <div class="col">
 <div class="card">
+    <div class="card-body">
+        <img src="./2.jpg" alt="">
+        <h2>Entreprise</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+             Doloribus voluptatem quidem unde praesentium nesciunt, 
+             </p>
+             <button href="Galerie.php" class="btn btn-primary">Decouvrez</button>
+            </div>
+            </div>
+            </div>
+            <div class="col">
+    <div class="card">
     <div class="card-body">
         <img src="./2.jpg" alt="">
         <h2>Achat</h2>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
              Doloribus voluptatem quidem unde praesentium nesciunt, 
-             nisi corporis repellendus ab porro perferendis
-             iste vero numquam labore ratione vel veniam laborum. Eveniet, cum?</p>
-             <button class="btn btn-primary">Decouvrez</button>
-            </div>
-    
-    <div class="card-body">
-        <img src="./2.jpg" alt="">
-        <h2>Galerie</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-             Doloribus voluptatem quidem unde praesentium nesciunt, 
-             nisi corporis repellendus ab porro perferendis
-             iste vero numquam labore ratione vel veniam laborum. Eveniet, cum?</p>
-             <button class="btn btn-primary">Decouvrez</button>
+             </p>
+             <button href="Achat.php" class="btn btn-primary">Decouvrez</button>
     </div>
+    </div>
+    </div>
+    <div class="col">
+<div class="card">
     <div class="card-body">
         <img src="./2.jpg" alt="">
         <h2>Blog</h2>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
              Doloribus voluptatem quidem unde praesentium nesciunt, 
-             nisi corporis repellendus ab porro perferendis
-             iste vero numquam labore ratione vel veniam laborum. Eveniet, cum?</p>
-             <button class="btn btn-primary">Decouvrez</button>
+             </p>
+             <button href="Blog.php" class="btn btn-primary">Decouvrez</button>
+    </div>
     </div>
 </div>
+</div>
 </section>
+
+
+
+
 
  <!------- Call to Action ------>
 
  <section class="cta">
-        <h1>Suivez nous partout dans le monde </h1>
+        <h1>Suivez nous partout au burkina faso </h1>
         <a href="contact.php" class="hero-btn">CONTACTER NOUS</a>
     </section>
-
+    <!--------------- temoignage --------------->
+<section>
+<h1>Témoignage de nos internautes</h1>
+    <div class="tamoigne">
+ 
+ <div>
+    <img src="2.jpg" alt="">
+    <h2>fari kiem</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+        Iste odit praesentium voluptatibus explicabo, tempore in dignissimos
+         blanditiis deleniti at iure!
+         Dicta minus aut sunt? Neque mollitia officia eaque! Eaque, nostrum?</p>
+ </div>
+ <div>
+    <img src="2.jpg" alt="">
+    <h2>kiem Ridoss</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+        Iste odit praesentium voluptatibus explicabo, tempore in dignissimos
+         blanditiis deleniti at iure!
+         Dicta minus aut sunt? Neque mollitia officia eaque! Eaque, nostrum?</p>
+ </div>
+ <div>
+    <img src="2.jpg" alt="">
+    <h2>ridoss fari</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+        Iste odit praesentium voluptatibus explicabo, tempore in dignissimos
+         blanditiis deleniti at iure!
+         Dicta minus aut sunt? Neque mollitia officia eaque! Eaque, nostrum?</p>
+ </div>
+    </div>
+</section>
 <!-- lier footer -->
-<!-- <?php include ("footer.php")?> -->
+<?php include ("Footer.php")?> 
 
     </body>
 </html>

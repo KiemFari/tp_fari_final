@@ -2,10 +2,12 @@
 <section class="footer">
     <div class="img-footer">
     <!-- <a href="index.php"><img class="imge" src="./logo-python (1).svg" alt=""></a> -->
-    <h1>"Burkina Shop"</h1>
+    <h1>RIDOSS ORPHAN</h1>
+    
+    
     <h4>About US</h4>
     <p>SUIVEZ NOUS SUR</p>
-    <div class="iconse">
+    <div class="icons">
     <img src="./logo-facebook.svg" alt="">
         <img src="./logo-twitter.svg" alt="">
         <img src="./logo-instagram.svg" alt="">
