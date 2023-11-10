@@ -78,7 +78,7 @@ header .logo a span{
 .acceuil{
     display: flex;
     justify-content: space-around;
-    background-color: rgb(164, 27, 27);
+    background-color: rgb(161, 156, 156);
 }
 .left {
     padding-left: 200px; 
