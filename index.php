@@ -55,17 +55,238 @@
 
 
 </section>
-<section class="home-next">
 <h1>La structure</h1>
+<section class="home-next">
+
 <p>Le site Burkina"Shop" est un site en ligne qui vous permet de faciliter 
     vos achats partout au  Burkina faso sans deplacemment et à moindre coùt. 
-ma mission à travers le site en effet c'est de faciliter  chez Burkina shop, nous pensons que le développement du pays passe 
+Ma mission à travers le site en effet c'est de faciliter les achats. Chez Burkina shop, nous pensons que le développement du pays passe 
 par une progression des affaires réalisées par les acteurs économiques locaux.
 
-Nous sommes convaincus que les pub des articles aideront à servir cette finalité.
+Nous sommes convaincu que les pub des articles aideront à servir cette finalité.
  C'est pourquoi nous développons et popularisons des services en ligne dédiés qui permettent de favoriser
  les interactions économiques entre tous les professionnels Burkinabè.</p>
+ <img src="./sim.jpg" alt="">
 </section>
+<section class="featured-products">
+        <div class="container">
+        
+        <div class="row">
+         <div class="col-4">
+          <a href="Blog.php"><img src="images.jpg" title="Burkna pagne" alt="insérer la description ici"></a>
+         <!-- <img src="in1.jpg" alt="produit 1"> -->
+         <h3>des habits de hautes qualités</h3>
+         <!-- <i class="fa fa-star"aria-hidden="true"></i>
+         <i class="fa fa-star"aria-hidden="true"></i>
+         <i class="fa fa-star"aria-hidden="true"></i>
+         <i class="fa fa-star-half-o"aria-hidden="true"></i> -->
+         
+         
+         <i class ="fa fa-star-o"></i>
+         <p class="argent">3500 fcfa cliquer</p>
+         
+         
+         </div>
+         <div class="col-4">
+          <a href="Blog.php"><img  src="images.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
+           <!-- <img src="in2.jpg" alt="produit 1"> -->
+           <h3>des pagnes</h3>
+           <!-- <i class="fa fa-star"aria-hidden="true"></i>
+         <i class="fa fa-star"aria-hidden="true"></i> -->
+         <!-- <i class="fa fa-star"aria-hidden="true"></i> -->
+         <!-- <i class="fa fa-star-half-o"aria-hidden="true"></i>
+          -->
+         
+         <i class ="fa fa-star-o"></i>
+           <p class="argent">5000 fcfa</p>
+           
+           
+           </div>
+           <div class="col-4">
+            <a href="Blog.php"><img src="images.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
+             <!-- <img src="in3.jpg" alt="produit 1"> -->
+             <h3>kokodonda</h3>
+             <!-- <i class="fa fa-star"aria-hidden="true"></i>
+         <i class="fa fa-star"aria-hidden="true"></i>
+         <i class="fa fa-star"aria-hidden="true"></i>
+         <i class="fa fa-star-half-o"aria-hidden="true"></i> -->
+         
+         
+         <i class ="fa fa-star-o"></i>
+             <p class="argent">4000fcfa</p>
+             
+             
+             </div>
+            
+        
+             <div class="col-4">
+            <a href="Blog.php"><img src="images.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
+             <!-- <img src="in3.jpg" alt="produit 1"> -->
+             <h3>traditionnel</h3>
+             <!-- <i class="fa fa-star"aria-hidden="true"></i>
+         <i class="fa fa-star"aria-hidden="true"></i>
+         <i class="fa fa-star"aria-hidden="true"></i>
+         <i class="fa fa-star-half-o"aria-hidden="true"></i>
+          -->
+         
+         <i class ="fa fa-star-o"></i>
+             <p class="argent">3000 fcfa</p>
+             
+             
+             </div>
+        </div>
+        
+        
+        </div>
+        
+        </section>
+        <section class="featured-products">
+        <div class="container">
+        
+        <div class="row">
+         <div class="col-4">
+          <a href="Blog.php"><img src="pagnebazin.jpg" title="Burkna pagne" alt="insérer la description ici"></a>
+         <!-- <img src="in1.jpg" alt="produit 1"> -->
+         <h3>des habits de hautes qualités</h3>
+         <!-- <i class="fa fa-star"aria-hidden="true"></i>
+         <i class="fa fa-star"aria-hidden="true"></i>
+         <i class="fa fa-star"aria-hidden="true"></i>
+         <i class="fa fa-star-half-o"aria-hidden="true"></i> -->
+         
+         
+         <i class ="fa fa-star-o"></i>
+         <p class="argent">3500 fcfa</p>
+         
+         
+         </div>
+         <div class="col-4">
+          <a href="Blog.php"><img  src="pagnebazin.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
+           <!-- <img src="in2.jpg" alt="produit 1"> -->
+           <h3>des pagnes</h3>
+           <!-- <i class="fa fa-star"aria-hidden="true"></i>
+         <i class="fa fa-star"aria-hidden="true"></i>
+         <i class="fa fa-star"aria-hidden="true"></i> 
+         <i class="fa fa-star-half-o"aria-hidden="true"></i>
+          -->
+         
+         <i class ="fa fa-star-o"></i>
+           <p class="argent">5000 fcfa</p>
+           
+           
+           </div>
+           <div class="col-4">
+            <a href="Blog.php"><img src="pagnebazin.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
+             <!-- <img src="in3.jpg" alt="produit 1"> -->
+             <h3>kokodonda</h3>
+             <!-- <i class="fa fa-star"aria-hidden="true"></i>
+         <i class="fa fa-star"aria-hidden="true"></i>
+         <i class="fa fa-star"aria-hidden="true"></i>
+         <i class="fa fa-star-half-o"aria-hidden="true"></i> -->
+         
+         
+         <i class ="fa fa-star-o"></i>
+             <p class="argent">4000fcfa</p>
+             
+             
+             </div>
+            
+        
+             <div class="col-4">
+            <a href="Blog.php"><img src="pagnebazin.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
+             <!-- <img src="in3.jpg" alt="produit 1"> -->
+             <h3>traditionnel</h3>
+             <!-- <i class="fa fa-star"aria-hidden="true"></i>
+         <i class="fa fa-star"aria-hidden="true"></i>
+         <i class="fa fa-star"aria-hidden="true"></i>
+         <i class="fa fa-star-half-o"aria-hidden="true"></i>
+          -->
+         
+         <i class ="fa fa-star-o"></i>
+             <p class="argent">3000 fcfa</p>
+             
+             
+             </div>
+        </div>
+        
+        
+        </div>
+        
+        </section>
+        </section>
+        <section class="featured-products">
+        <div class="container">
+        
+        <div class="row">
+         <div class="col-4">
+          <a href="Blog.php"><img src="pagne.jpg" title="Burkna pagne" alt="insérer la description ici"></a>
+         <!-- <img src="in1.jpg" alt="produit 1"> -->
+         <h3>des habits de hautes qualités</h3>
+         <!-- <i class="fa fa-star"aria-hidden="true"></i>
+         <i class="fa fa-star"aria-hidden="true"></i>
+         <i class="fa fa-star"aria-hidden="true"></i>
+         <i class="fa fa-star-half-o"aria-hidden="true"></i> -->
+         
+         
+         <i class ="fa fa-star-o"></i>
+         <p class="argent">3500 fcfa </p>
+         
+         
+         </div>
+         <div class="col-4">
+          <a href="Blog.php"><img  src="pagne.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
+           <!-- <img src="in2.jpg" alt="produit 1"> -->
+           <h3>des pagnes</h3>
+           <!-- <i class="fa fa-star"aria-hidden="true"></i>
+         <i class="fa fa-star"aria-hidden="true"></i> -->
+         <!-- <i class="fa fa-star"aria-hidden="true"></i> -->
+         <i class="fa fa-star-half-o"aria-hidden="true"></i>
+         
+         
+         <i class ="fa fa-star-o"></i>
+           <p class="argent">5000 fcfa</p>
+           
+           
+           </div>
+           <div class="col-4">
+            <a href="Blog.php"><img src="pagne.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
+             <!-- <img src="in3.jpg" alt="produit 1"> -->
+             <h3>kokodonda</h3>
+             <!-- <i class="fa fa-star"aria-hidden="true"></i>
+         <i class="fa fa-star"aria-hidden="true"></i>
+         <i class="fa fa-star"aria-hidden="true"></i>
+         <i class="fa fa-star-half-o"aria-hidden="true"></i> -->
+         
+         
+         <i class ="fa fa-star-o"></i>
+             <p class="argent">4000fcfa</p>
+             
+             
+             </div>
+            
+        
+             <div class="col-4">
+            <a href="Blog.php"><img src="pagne.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
+             <!-- <img src="in3.jpg" alt="produit 1"> -->
+             <h3>traditionnel</h3>
+             <!-- <i class="fa fa-star"aria-hidden="true"></i>
+         <i class="fa fa-star"aria-hidden="true"></i>
+         <i class="fa fa-star"aria-hidden="true"></i>
+         <i class="fa fa-star-half-o"aria-hidden="true"></i> -->
+         
+         
+         <i class ="fa fa-star-o"></i>
+             <p class="argent">3000 fcfa</p>
+             
+             
+             </div>
+        </div>
+        
+        
+        </div>
+        
+        </section>
+     
+     
 <section class="visite">
 <div class="row row-cols-1 row-cols-md-4 g-10">
     <div class="col">
@@ -76,31 +297,31 @@ Nous sommes convaincus que les pub des articles aideront à servir cette finalit
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
              Doloribus voluptatem quidem unde praesentium nesciunt, 
              </p>
-             <button href="Galerie.php" class="btn btn-primary">Decouvrez</button>
+             <a href="Galerie.php" class="btn btn-primary">Decouvrez</a>
             </div>
             </div>
             </div>
             <div class="col">
     <div class="card">
     <div class="card-body">
-        <img src="./2.jpg" alt="">
+        <img  src="./2.jpg" alt="">
         <h2>Achat</h2>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
              Doloribus voluptatem quidem unde praesentium nesciunt, 
              </p>
-             <button href="Achat.php" class="btn btn-primary">Decouvrez</button>
+             <a href="Achat.php" class="btn btn-primary">Decouvrez</a>
     </div>
     </div>
     </div>
     <div class="col">
 <div class="card">
     <div class="card-body">
-        <img src="./2.jpg" alt="">
-        <h2>Blog</h2>
+        <img class='pho' src="./2.jpg" alt="">
+        <h2>Contact</h2>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
              Doloribus voluptatem quidem unde praesentium nesciunt, 
              </p>
-             <button href="Blog.php" class="btn btn-primary">Decouvrez</button>
+             <a href="Contact.php" class="btn btn-primary">Decouvrez</a>
     </div>
     </div>
 </div>

@@ -144,13 +144,20 @@ header .logo a span{
 .home-next{
     text-align: center;
     background-color: rgb(228, 228, 228);
+    display: flex;
 }
 .home-next p{
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 30px;
+    
+} 
+
+.home-next img{
+    height: 500px;
+    width: 500px;
     
 }
-
 
  .visite{
     margin-left: 250px;
@@ -330,3 +337,69 @@ section#contact form button{
 section#contact form p{
     padding: 0;
 }
+/*---------- connexion-----*/
+.A{
+    padding-top: 100px; 
+    display: flex;
+    justify-content: center;
+}
+h3{
+    color: darkslateblue;
+    padding: 15px 15px;
+    display: inline-block;
+    font-size: 25px;
+    border: 1px solid #dad8e4;
+    margin-bottom: 30px;
+}
+.span{
+    
+    background-color: white;
+    align-items: center;
+    text-align: center;
+     height: 50%;
+    width: 50%;
+}
+/* section prix */
+.container{
+    max-width: 1170px;
+    
+    margin: auto;
+    margin-bottom: 50px;
+}
+.sodre{
+    text-align: center;
+    font-size: x-large;
+}
+.argent{
+    background-color: #46f436;
+    width: 70px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style:none ;
+}
+.col-4{
+    flex-basis: 25%;
+    min-width: 200px;
+    padding: 15px;
+    transition: transform 0.4s;
+    
+}
+.col-4 img{
+    width: 100%;
+    
+}
+.col-4:hover{
+    transform:translateY(-10px);
+}
+.sole{
+    text-align: center;
+}
+.pho{
+    height: 30px;
+    width: 30px;
+}
+/* footer */

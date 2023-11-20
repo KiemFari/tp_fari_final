@@ -1,4 +1,3 @@
-Achat.php
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,16 +23,160 @@ Achat.php
     <button class="btn btn-primary">cliquer plus</button>
 </div>
 <div class="right">
-    <img src="./2.jpg" alt="">
+    <img src="pagnebazin.jpg" alt="">
 </div>
 </section>
 <section class="acceuilli">
     <div>
-        <img src="./2.jpg" alt="">
-        <img src="./2.jpg" alt="">
-        <img src="./2.jpg" alt="">
+        <img src="dunda.jpg" alt="">
+        <img src="femme.jpg" alt="">
+        <img src="pagnerobe.jpg" alt="">
     </div>
 </section>
+<section class="featured-products">
+        <div class="container">
+        
+        <div class="row">
+         <div class="col-4">
+          <a href="insérer l'URL de destination ici"><img src="2.jpg" title="insérer le titre" alt="insérer la description ici"></a>
+         <!-- <img src="in1.jpg" alt="produit 1"> -->
+         <h3>des habits de hautes qualités</h3>
+         <i class="fa fa-star"aria-hidden="true"></i>
+         <i class="fa fa-star"aria-hidden="true"></i>
+         <i class="fa fa-star"aria-hidden="true"></i>
+         <i class="fa fa-star-half-o"aria-hidden="true"></i>
+         
+         
+         <i class ="fa fa-star-o"></i>
+         <p class="argent">5000 fcfa</p>
+         
+         
+         </div>
+         <div class="col-4">
+          <a href="insérer l'URL de destination ici"><img  src="2.jpg" title="insérer le titre" alt="insérer la description ici"></a>
+           <!-- <img src="in2.jpg" alt="produit 1"> -->
+           <h3>des pagnes</h3>
+           <i class="fa fa-star"aria-hidden="true"></i>
+         <i class="fa fa-star"aria-hidden="true"></i>
+         <!-- <i class="fa fa-star"aria-hidden="true"></i> -->
+         <i class="fa fa-star-half-o"aria-hidden="true"></i>
+         
+         
+         <i class ="fa fa-star-o"></i>
+           <p class="argent">5000 fcfa</p>
+           
+           
+           </div>
+           <div class="col-4">
+            <a href="insérer l'URL de destination ici"><img src="2.jpg" title="insérer le titre" alt="insérer la description ici"></a>
+             <!-- <img src="in3.jpg" alt="produit 1"> -->
+             <h3>kokodonda</h3>
+             <i class="fa fa-star"aria-hidden="true"></i>
+         <i class="fa fa-star"aria-hidden="true"></i>
+         <i class="fa fa-star"aria-hidden="true"></i>
+         <i class="fa fa-star-half-o"aria-hidden="true"></i>
+         
+         
+         <i class ="fa fa-star-o"></i>
+             <p class="argent">5000 fcfa</p>
+             
+             
+             </div>
+            
+        
+             <div class="col-4">
+            <a href="insérer l'URL de destination ici"><img src="2.jpg" title="insérer le titre" alt="insérer la description ici"></a>
+             <!-- <img src="in3.jpg" alt="produit 1"> -->
+             <h3>traditionnelle</h3>
+             <i class="fa fa-star"aria-hidden="true"></i>
+         <i class="fa fa-star"aria-hidden="true"></i>
+         <i class="fa fa-star"aria-hidden="true"></i>
+         <i class="fa fa-star-half-o"aria-hidden="true"></i>
+         
+         
+         <i class ="fa fa-star-o"></i>
+             <p class="argent">5000 fcfa</p>
+             
+             
+             </div>
+        </div>
+        
+        
+        </div>
+        
+        </section>
+        <section class="featured-products">
+        <div class="container">
+        
+        <div class="row">
+         <div class="col-4">
+          <a href="insérer l'URL de destination ici"><img src="2.jpg" title="insérer le titre" alt="insérer la description ici"></a>
+         <!-- <img src="in1.jpg" alt="produit 1"> -->
+         <h3>des habits de hautes qualités</h3>
+         <i class="fa fa-star"aria-hidden="true"></i>
+         <i class="fa fa-star"aria-hidden="true"></i>
+         <i class="fa fa-star"aria-hidden="true"></i>
+         <i class="fa fa-star-half-o"aria-hidden="true"></i>
+         
+         
+         <i class ="fa fa-star-o"></i>
+         <p class="argent">5000 fcfa</p>
+         
+         
+         </div>
+         <div class="col-4">
+          <a href="insérer l'URL de destination ici"><img  src="2.jpg" title="insérer le titre" alt="insérer la description ici"></a>
+           <!-- <img src="in2.jpg" alt="produit 1"> -->
+           <h3>des pagnes</h3>
+           <i class="fa fa-star"aria-hidden="true"></i>
+         <i class="fa fa-star"aria-hidden="true"></i>
+         <!-- <i class="fa fa-star"aria-hidden="true"></i> -->
+         <i class="fa fa-star-half-o"aria-hidden="true"></i>
+         
+         
+         <i class ="fa fa-star-o"></i>
+           <p class="argent">5000 fcfa</p>
+           
+           
+           </div>
+           <div class="col-4">
+            <a href="insérer l'URL de destination ici"><img src="2.jpg" title="insérer le titre" alt="insérer la description ici"></a>
+             <!-- <img src="in3.jpg" alt="produit 1"> -->
+             <h3>kokodonda</h3>
+             <i class="fa fa-star"aria-hidden="true"></i>
+         <i class="fa fa-star"aria-hidden="true"></i>
+         <i class="fa fa-star"aria-hidden="true"></i>
+         <i class="fa fa-star-half-o"aria-hidden="true"></i>
+         
+         
+         <i class ="fa fa-star-o"></i>
+             <p class="argent">5000 fcfa</p>
+             
+             
+             </div>
+            
+        
+             <div class="col-4">
+            <a href="insérer l'URL de destination ici"><img src="2.jpg" title="insérer le titre" alt="insérer la description ici"></a>
+             <!-- <img src="in3.jpg" alt="produit 1"> -->
+             <h3>traditionnelle</h3>
+             <i class="fa fa-star"aria-hidden="true"></i>
+         <i class="fa fa-star"aria-hidden="true"></i>
+         <i class="fa fa-star"aria-hidden="true"></i>
+         <i class="fa fa-star-half-o"aria-hidden="true"></i>
+         
+         
+         <i class ="fa fa-star-o"></i>
+             <p class="argent">5000 fcfa</p>
+             
+             
+             </div>
+        </div>
+        
+        
+        </div>
+        
+        </section>
 
     <!-- lier footer -->
 <?php include ("Footer.php")?>

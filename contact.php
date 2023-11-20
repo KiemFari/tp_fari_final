@@ -23,7 +23,7 @@ Contactez Burkina"shop", l'ensemble de notre site  est  à votre service</h1>
 </section>
 <section id="contact">
         <h2>On y va ????????</h2>
-        <p>Qu'attendez-vous pour profiterde nos offres exceptionnelles Envoyez-nous 
+        <p>Qu'attendez-vous pour profiter de nos offres exceptionnelles Envoyez-nous 
             votre demande par mail au formulaire ci-dessous et nous vous renverrons un devis 
        <strong>gratuit</strong> sous 48h.</p>
        <form action="mailto:kiemtorefariratou@gmail.com" method="post" enctype="text/plain">

@@ -44,52 +44,92 @@
 
     </section>
 <!-- ------acceuil section --------->
+
+
+
+<section class="visite">
 <div class="row row-cols-1 row-cols-md-4 g-10">
-  <div class="col">
+    <div class="col">
+<div class="card">
+    <div class="card-body">
+        <img src="koko.jpg" alt="">
+        <h2>Jacque kokodonda</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+             Doloribus voluptatem quidem unde praesentium nesciunt, 
+             </p>
+             <a href="" class="btn btn-primary">Decouvrez</a>
+            </div>
+            </div>
+            </div>
+            <div class="col">
     <div class="card">
-      <img src="shop.jfif" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Ridoss shop</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-     <a href="">habit femme</a><br>
-     <a href="">habit homme</a>
+    <div class="card-body">
+        <img  src="pagne.jpg" alt="">
+        <h2>fari <br> traditionnel</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+             Doloribus voluptatem quidem unde praesentium nesciunt, 
+             </p>
+             <a href="" class="btn btn-primary">Decouvrez</a>
     </div>
     </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src="bazin.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Bazin KNB</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-    <a href="">vente bazin</a><br>
-    <a href="">vente pagne</a>
-      </div>
     </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src="pagne.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">pagne traditionnel</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <a href="">pagne traditionel</a><br>
-            <a href="">Mossi et autres</a>
-      </div>
+    <div class="col">
+<div class="card">
+    <div class="card-body">
+        <img class='pho' src="bazin.jpg" alt="">
+        <h2>Bazin <br>de luxe KNB</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+             Doloribus voluptatem quidem unde praesentium nesciunt, 
+             </p>
+             <a href="" class="btn btn-primary">Decouvrez</a>
     </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src="koko.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title"> pagne kokodonda</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <a href="">vente kokodonda</a><br>
-        <a href="">bogolan et pagne afrique</a>
-      </div>
     </div>
-  </div>
 </div>
+</div>
+</section>
+<section class="visite">
+<div class="row row-cols-1 row-cols-md-4 g-10">
+    <div class="col">
+<div class="card">
+    <div class="card-body">
+        <img src="koko.jpg" alt="">
+        <h2>Riha shop</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+             Doloribus voluptatem quidem unde praesentium nesciunt, 
+             </p>
+             <a href="" class="btn btn-primary">Decouvrez</a>
+            </div>
+            </div>
+            </div>
+            <div class="col">
+    <div class="card">
+    <div class="card-body">
+        <img  src="pagne.jpg" alt="">
+        <h2>Design House</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+             Doloribus voluptatem quidem unde praesentium nesciunt, 
+             </p>
+             <a href="" class="btn btn-primary">Decouvrez</a>
+    </div>
+    </div>
+    </div>
+    <div class="col">
+<div class="card">
+    <div class="card-body">
+        <img class='pho' src="bazin.jpg" alt="">
+        <h2>Wouman  secret</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+             Doloribus voluptatem quidem unde praesentium nesciunt, 
+             </p>
+             <a href="" class="btn btn-primary">Decouvrez</a>
+    </div>
+    </div>
+</div>
+</div>
+</section>
+
+
+
 <!-- lier footer -->
 <?php include ("Footer.php")?>
 

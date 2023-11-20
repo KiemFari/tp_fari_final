@@ -15,7 +15,7 @@
                 <li><a href="contact.php">Contact</a></li>
                 <li><a href="inscription.php">inscription</a></li>
                 <li><a href="connexion.php">connexion</a></li>
-                <li><a href="deconnection.php">deconnexion</a></li>
+                <li><a href="deconnexion.php">deconnexion</a></li>
             </ul>
           
         </nav>
