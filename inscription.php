@@ -1,4 +1,3 @@
-
 <?php
 
 
@@ -27,7 +26,7 @@ if (isset($submit)) {
         $res=$bdd->query(" INSERT INTO connect(nom, prenom, email, code) 
                             VALUES ('$nom','$prenom','$email','$code')");
         if ($res !== false) {
-            header('location:Index.php');
+            header('location:connexion.php');
         }else{
             $err="echec d'enregistrement!";
         }

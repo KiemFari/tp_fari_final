@@ -35,12 +35,12 @@
             <div class="entre">
            <h2>Les professionnelles se presentent</h2>
            <p>ILS presentent leurs produits à travers le site web , avec une possibilitès de commander en ligne et de recevoir les produits sous livraison ,possiblitès de payement en ligne</p>
-           <a href="inscription.php">inscriver votre entreprise sur "Ma commande"</a>
+           <a href="inscription.php">inscriver votre entreprise sur "Burkina shop"</a>
         </div>
 
         <span></span>
        
-        <span></span>
+        
 
     </section>
 <!-- ------acceuil section --------->
@@ -128,8 +128,7 @@
 </div>
 </section>
 
-
-
+   
 <!-- lier footer -->
 <?php include ("Footer.php")?>
 

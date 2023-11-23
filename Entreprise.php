@@ -1,3 +1,4 @@
+Entreprise.php
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,38 +11,23 @@
    rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
     crossorigin="anonymous">
   <link rel="stylesheet" href="./style.css">
-    <title>Panier</title>
+    <title>Entreprise</title>
 </head>
-<body >
-
-  <div class="panier">
+<body>
     <?php include ("nav.php"); ?>
-   
 
-<section>
-<a href="index.php" class="link">Boutique</a>
-  <table>
-    <tr>
-      <th></th>
-      <th>Nom</th>
-      <th>Prix</th>
-      <th>Quantité</th>
-      <th>Action</th>
-    </tr>
-    <tr>
-      
-      <td><img src="images.jpg" alt=""></td>
-      <td>Des habits de hautes qualités</td>
-      <td>3500fcfa</td>
-      <td>5</td> 
-      <td><img src="trash-outline.svg" alt=""></td>
-    </tr>
-    <tr class="total">
-    <th>Total : 10000fcfa</th>
-    </tr>
-  </table>
-</section>
-</div>
+
+    <section class="candidat">
+        <div>
+            <p>Notre entreprise</p>
+            <h1>Burkina Shop</h1>
+            <p>Nous sommes une entreprise evoluant dans la commercialisation , la formation des pagnes kokodonda parce ce que valosiser le pagne kokodonda c'est valoriser la femme Burkinabé surtout Bobolaise et en particulier mettre en avant la valeur duBurkina en matiére de pagne</p>
+                     <a href="" class="hero-btn">PLUS D'INFO</a>
+        </div>
+        <div>
+            <img class="imgt" src="./comment-puis-je-vous-aider-beau-jeune-homme-africain-travaillant-ordinateur-portable-vous-souriant-se-tenant-debout_425904-21663.avif" alt="">
+        </div>
+                </section>
     <!-- lier footer -->
 <?php include ("Footer.php")?>
 

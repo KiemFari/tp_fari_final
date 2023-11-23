@@ -1,7 +1,6 @@
 
 <section class="footer">
-    <div class="img-footer">
-    <!-- <a href="index.php"><img class="imge" src="./logo-python (1).svg" alt=""></a> -->
+    <div >
     <h1>"Burkina Shop"</h1>
     <h4>About US</h4>
     <p>SUIVEZ NOUS SUR</p>
@@ -17,31 +16,30 @@
         +22660385320</h2> -->
         </div>
         <div class="RA">
-    <h4>Services</h4>
-    <p>product</p>
-    <p>support</p>
-    <p>community</p>
-    <p>report abuse</p>
-    <p>ressources</p>
+    <h4>Support</h4>
+    <p>Acceuil</p>
+    <p>Entreprise</p>
+    <p>Achat</p>
+    <p>Inscription</p>
+    <p>Connexion</p>
     <p>Mentions Legales</p>
     </div>
     <div class="rachi">
-    <h4>Blog</h4>
-        <p>Adoption</p>
-        <p>Visite</p>
-        <p>Festivités</p>
-        <p>Témoignages</p>
-        <p>Catalogue</p>
+    <h4>Entreprendre</h4>
+        <p>"BURKINA SHOP"</p>
+        <p>Business women</p>
+        <p>Entreprise privée</p>
+        <p>Faso Business</p>
         <p>Politique de confidentialite</p>
     </div>
     <div>
-    <h4>Contact et Email</h4>
-        <p>+226 75413359</p>
-        <p>+226 60385320</p>
+    <a href="contact.php"><h4>Contact et Email</h4></a>
+       <a href="75413359"><p>+226 75413359</p></a> 
+       <a href="60385320"> <p>+226 60385320</p></a>
         <p>Formulaire</p>
-        <p>Email &</p>
-        <p>kiemtorefariratou@gmail.com</p>
-        <p>Office</p>
+        <p>Email & Contact</p>
+       <a href="kiemtorefariratou@gmail.com"> <p>kiemtorefariratou@gmail.com</p></a>
+        <p>Burkina Faso "226"</p>
        
     </div>
 </section>

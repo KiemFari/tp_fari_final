@@ -12,6 +12,7 @@
  } 
 
 ?> -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,11 +24,16 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
    rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
     crossorigin="anonymous">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
   <link rel="stylesheet" href="./style.css">
     <title>Site E_COMMERCE</title>
 </head>
 <body>
            <?php include ("nav.php"); ?>
+
+           <?php include('connexionBDD.php');?>
        
      <!-- <?php include ("fari.php"); ?>  -->
 
@@ -47,14 +53,200 @@
     </header> -->
 <!-- ------acceuil section --------->
 <section class="home" style="">
-<h2>Ma commande en ligne</h2>
+
 <h1>Burkina shop</h1>
-<P>UN SITE DE COMMERCE EN LIGNE QUI VOUS FACILITE VOS ACHATS A TRAVERS LE BURKINA FASO</P>
-<button class="btn btn-primary">Visiter la page</button>
+<h2>Ma commande en ligne</h2>
+
+<!-- <button class="btn btn-primary">Visiter la page</button>
 <button href="Inscription.php" class="btn btn-secondary">Commander ici</button>
-
-
+ -->
 </section>
+
+
+<!-- <section class="featured-products">
+        <div class="container">
+        
+        <div class="row">
+         <div class="col-4">
+         <?php
+         //inclure la page de connexion
+        
+         include_once "con_dbb.php";
+
+         $reponse=$bdd->query("SELECT * FROM produits");
+         while($donnees=$reponse->fetch()){
+            ?>
+            <div>
+            <a href="#"><img src="<?php echo $donnees['photo'];?>" alt="" > </a>
+        </div>
+        <div>
+         <h3 class="fw-semibold mb-0 text-body-emphasis">
+         <?php echo $donnees['titre'];?>
+         </h3>
+         <i class ="fa fa-star-o"></i>
+
+         <p class="argent">
+            <?php echo $donnees['prix'];?> </p>
+         
+         <a href="Blog.php" class="id_product" >Ajouter au panier</a>
+        
+           
+        
+        
+       
+        <?php }?>
+        </div>
+         </div>
+        </div>
+        </div>
+        </section>
+       -->
+       <!-- <section class="kok">
+         <h2>Les meuilleurs pagnes kokodonda</h2>
+       <P>Nos pagnes kokodonda sont des pagnes realisées avec amour soin et delicatesse pour vous offrir des pagnes <br> typiquements Burkinabées surtout Bobolais
+        Nous vous offrons nos meuilleurs <br> pagnes à un prix exceptionnelle qui defie toute concurerence
+       </P> -->
+       </section>
+        <section class="featured-products">
+        <div class="container">
+            <div class="koko">
+        <a href="Achat.php"><img src="ff.jpg" title="Burkna pagne" alt="insérer la description ici"></a>
+        <a href="Achat.php"><img src="gg.jpg" title="Burkna pagne" alt="insérer la description ici"></a>
+        <a href="Achat.php"><img src="deec.jpg" title="Burkna pagne" alt="insérer la description ici"></a>
+        <a href="Achat.php"><img src="dee.jpg" title="Burkna pagne" alt="insérer la description ici"></a>
+        </div>
+        <p class="argent">3000 fcfa</p>
+        <div class="koko">
+        <a href="Achat.php"><img src="doda.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
+        <a href="Achat.php"><img src="dond.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
+        <a href="Achat.php"><img src="ff.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
+        <a href="Achat.php"><img src="images.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
+        </div>
+        <p class="argent">3000 fcfa</p>
+        <div class="centre">
+        <h1>Les pagnes modéle Africaine</h1>
+       <P>Nos pagnes kokodonda sont des pagnes inspirées des valeurs representations et ideologiques de l'Afrique<br> typiquement Burkinabées surtout Bobolais pagnes à un prix exceptionnelle qui defie toute concurrence
+       </P>
+       </div>
+        <div class="koko">
+        <a href="Achat.php"><img src="cop.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
+        <a href="Achat.php"><img src="cop1.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
+        <a href="Achat.php"><img src="cop2.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
+        <a href="Achat.php"><img src="cop1.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
+        </div>  
+         <p class="argent">3500 fcfa</p><br><br><br>
+        <div class="koko">
+        <a href="Achat.php"><img src="ff.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
+        <a href="Achat.php"><img src="cop3.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
+        <a href="Achat.php"><img src="cop6.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
+        <a href="Achat.php"><img src="cop1.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
+        </div>
+        <p class="argent">3500 fcfa</p>
+        <b><br></b>
+        <div class="koko">
+        <a href="Achat.php"><img src="cop5.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
+        <a href="Achat.php"><img src="cop1.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
+        <a href="Achat.php"><img src="cop2.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
+        <a href="Achat.php"><img src="cop4.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
+        </div>
+        <p class="argent">3500 fcfa</p>
+        
+        <!-- <div class="row">
+         <div class="col-4">
+          <a href="Blog.php"><img src="ff.jpg" title="Burkna pagne" alt="insérer la description ici"></a>
+         <i class ="fa fa-star-o"></i>
+         </div>
+         <div class="col-4">
+          <a href="Blog.php"><img  src="gg.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
+         <i class ="fa fa-star-o"></i>
+           </div>
+           <div class="col-4">
+            <a href="Blog.php"><img src="deec.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
+         <i class ="fa fa-star-o"></i>
+             </div>
+             <div class="col-4">
+            <a href="Blog.php"><img src="dee.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
+         <i class ="fa fa-star-o"></i>
+             </div>  
+        </div> -->
+        </div>
+        </section>
+        <!-- <section class="featured-products">
+        <div class="container">
+        
+        <div class="row">
+         <div class="col-4">
+          <a href="Blog.php"><img src="pagne.jpg" title="Burkna pagne" alt="insérer la description ici"></a>
+         <img src="in1.jpg" alt="produit 1"> -->
+         <!-- <i class="fa fa-star"aria-hidden="true"></i>
+         <i class="fa fa-star"aria-hidden="true"></i>
+         <i class="fa fa-star"aria-hidden="true"></i>
+         <i class="fa fa-star-half-o"aria-hidden="true"></i> -->
+         
+         
+         <!-- <i class ="fa fa-star-o"></i>
+         <p class="argent">3500 fcfa </p>
+         
+         
+         </div>
+         <div class="col-4">
+          <a href="Blog.php"><img  src="pagne.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
+           <h3>des pagnes</h3>
+         <i class="fa fa-star-half-o"aria-hidden="true"></i>
+         <i class ="fa fa-star-o"></i>
+           <p class="argent">5000 fcfa</p>
+           </div>
+           <div class="col-4">
+            <a href="Blog.php"><img src="pagne.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
+             <h3>kokodonda</h3>
+         <i class ="fa fa-star-o"></i>
+             <p class="argent">4000fcfa</p>
+             </div>
+             <div class="col-4">
+            <a href="Blog.php"><img src="pagne.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
+             <h3>traditionnel</h3>
+         <i class ="fa fa-star-o"></i>
+             <p class="argent">3000 fcfa</p>
+             </div>
+        </div>
+        
+        
+        </div>
+        
+        </section>
+        </section> -->
+        <!-- <section class="featured-products">
+        <div class="container">
+        
+        <div class="row">
+         <div class="col-4">
+          <a href="Blog.php"><img src="images.jpg" title="Burkna pagne" alt="insérer la description ici"></a>
+         <h3>des habits de hautes qualités</h3>
+         <i class ="fa fa-star-o"></i>
+         <p class="argent">3500 fcfa </p>
+         </div>
+         <div class="col-4">
+          <a href="Blog.php"><img  src="images.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
+           <h3>des pagnes</h3>
+         <i class="fa fa-star-half-o"aria-hidden="true"></i>
+         <i class ="fa fa-star-o"></i>
+           <p class="argent">5000 fcfa</p>
+           </div>
+           <div class="col-4">
+            <a href="Blog.php"><img src="images.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
+             <h3>kokodonda</h3>
+         <i class ="fa fa-star-o"></i>
+             <p class="argent">4000fcfa</p>
+             </div>
+             <div class="col-4">
+            <a href="Blog.php"><img src="images.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
+             <h3>traditionnel</h3>
+         <i class ="fa fa-star-o"></i>
+             <p class="argent">3000 fcfa</p>
+             </div>
+        </div>
+        </div>
+        </section>  -->
 <h1>La structure</h1>
 <section class="home-next">
 
@@ -68,231 +260,13 @@ Nous sommes convaincu que les pub des articles aideront à servir cette finalit�
  les interactions économiques entre tous les professionnels Burkinabè.</p>
  <img src="./sim.jpg" alt="">
 </section>
-<section class="featured-products">
-        <div class="container">
-        
-        <div class="row">
-         <div class="col-4">
-          <a href="Blog.php"><img src="images.jpg" title="Burkna pagne" alt="insérer la description ici"></a>
-         <!-- <img src="in1.jpg" alt="produit 1"> -->
-         <h3>des habits de hautes qualités</h3>
-         <!-- <i class="fa fa-star"aria-hidden="true"></i>
-         <i class="fa fa-star"aria-hidden="true"></i>
-         <i class="fa fa-star"aria-hidden="true"></i>
-         <i class="fa fa-star-half-o"aria-hidden="true"></i> -->
-         
-         
-         <i class ="fa fa-star-o"></i>
-         <p class="argent">3500 fcfa cliquer</p>
-         
-         
-         </div>
-         <div class="col-4">
-          <a href="Blog.php"><img  src="images.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
-           <!-- <img src="in2.jpg" alt="produit 1"> -->
-           <h3>des pagnes</h3>
-           <!-- <i class="fa fa-star"aria-hidden="true"></i>
-         <i class="fa fa-star"aria-hidden="true"></i> -->
-         <!-- <i class="fa fa-star"aria-hidden="true"></i> -->
-         <!-- <i class="fa fa-star-half-o"aria-hidden="true"></i>
-          -->
-         
-         <i class ="fa fa-star-o"></i>
-           <p class="argent">5000 fcfa</p>
-           
-           
-           </div>
-           <div class="col-4">
-            <a href="Blog.php"><img src="images.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
-             <!-- <img src="in3.jpg" alt="produit 1"> -->
-             <h3>kokodonda</h3>
-             <!-- <i class="fa fa-star"aria-hidden="true"></i>
-         <i class="fa fa-star"aria-hidden="true"></i>
-         <i class="fa fa-star"aria-hidden="true"></i>
-         <i class="fa fa-star-half-o"aria-hidden="true"></i> -->
-         
-         
-         <i class ="fa fa-star-o"></i>
-             <p class="argent">4000fcfa</p>
-             
-             
-             </div>
-            
-        
-             <div class="col-4">
-            <a href="Blog.php"><img src="images.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
-             <!-- <img src="in3.jpg" alt="produit 1"> -->
-             <h3>traditionnel</h3>
-             <!-- <i class="fa fa-star"aria-hidden="true"></i>
-         <i class="fa fa-star"aria-hidden="true"></i>
-         <i class="fa fa-star"aria-hidden="true"></i>
-         <i class="fa fa-star-half-o"aria-hidden="true"></i>
-          -->
-         
-         <i class ="fa fa-star-o"></i>
-             <p class="argent">3000 fcfa</p>
-             
-             
-             </div>
-        </div>
-        
-        
-        </div>
-        
-        </section>
-        <section class="featured-products">
-        <div class="container">
-        
-        <div class="row">
-         <div class="col-4">
-          <a href="Blog.php"><img src="pagnebazin.jpg" title="Burkna pagne" alt="insérer la description ici"></a>
-         <!-- <img src="in1.jpg" alt="produit 1"> -->
-         <h3>des habits de hautes qualités</h3>
-         <!-- <i class="fa fa-star"aria-hidden="true"></i>
-         <i class="fa fa-star"aria-hidden="true"></i>
-         <i class="fa fa-star"aria-hidden="true"></i>
-         <i class="fa fa-star-half-o"aria-hidden="true"></i> -->
-         
-         
-         <i class ="fa fa-star-o"></i>
-         <p class="argent">3500 fcfa</p>
-         
-         
-         </div>
-         <div class="col-4">
-          <a href="Blog.php"><img  src="pagnebazin.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
-           <!-- <img src="in2.jpg" alt="produit 1"> -->
-           <h3>des pagnes</h3>
-           <!-- <i class="fa fa-star"aria-hidden="true"></i>
-         <i class="fa fa-star"aria-hidden="true"></i>
-         <i class="fa fa-star"aria-hidden="true"></i> 
-         <i class="fa fa-star-half-o"aria-hidden="true"></i>
-          -->
-         
-         <i class ="fa fa-star-o"></i>
-           <p class="argent">5000 fcfa</p>
-           
-           
-           </div>
-           <div class="col-4">
-            <a href="Blog.php"><img src="pagnebazin.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
-             <!-- <img src="in3.jpg" alt="produit 1"> -->
-             <h3>kokodonda</h3>
-             <!-- <i class="fa fa-star"aria-hidden="true"></i>
-         <i class="fa fa-star"aria-hidden="true"></i>
-         <i class="fa fa-star"aria-hidden="true"></i>
-         <i class="fa fa-star-half-o"aria-hidden="true"></i> -->
-         
-         
-         <i class ="fa fa-star-o"></i>
-             <p class="argent">4000fcfa</p>
-             
-             
-             </div>
-            
-        
-             <div class="col-4">
-            <a href="Blog.php"><img src="pagnebazin.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
-             <!-- <img src="in3.jpg" alt="produit 1"> -->
-             <h3>traditionnel</h3>
-             <!-- <i class="fa fa-star"aria-hidden="true"></i>
-         <i class="fa fa-star"aria-hidden="true"></i>
-         <i class="fa fa-star"aria-hidden="true"></i>
-         <i class="fa fa-star-half-o"aria-hidden="true"></i>
-          -->
-         
-         <i class ="fa fa-star-o"></i>
-             <p class="argent">3000 fcfa</p>
-             
-             
-             </div>
-        </div>
-        
-        
-        </div>
-        
-        </section>
-        </section>
-        <section class="featured-products">
-        <div class="container">
-        
-        <div class="row">
-         <div class="col-4">
-          <a href="Blog.php"><img src="pagne.jpg" title="Burkna pagne" alt="insérer la description ici"></a>
-         <!-- <img src="in1.jpg" alt="produit 1"> -->
-         <h3>des habits de hautes qualités</h3>
-         <!-- <i class="fa fa-star"aria-hidden="true"></i>
-         <i class="fa fa-star"aria-hidden="true"></i>
-         <i class="fa fa-star"aria-hidden="true"></i>
-         <i class="fa fa-star-half-o"aria-hidden="true"></i> -->
-         
-         
-         <i class ="fa fa-star-o"></i>
-         <p class="argent">3500 fcfa </p>
-         
-         
-         </div>
-         <div class="col-4">
-          <a href="Blog.php"><img  src="pagne.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
-           <!-- <img src="in2.jpg" alt="produit 1"> -->
-           <h3>des pagnes</h3>
-           <!-- <i class="fa fa-star"aria-hidden="true"></i>
-         <i class="fa fa-star"aria-hidden="true"></i> -->
-         <!-- <i class="fa fa-star"aria-hidden="true"></i> -->
-         <i class="fa fa-star-half-o"aria-hidden="true"></i>
-         
-         
-         <i class ="fa fa-star-o"></i>
-           <p class="argent">5000 fcfa</p>
-           
-           
-           </div>
-           <div class="col-4">
-            <a href="Blog.php"><img src="pagne.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
-             <!-- <img src="in3.jpg" alt="produit 1"> -->
-             <h3>kokodonda</h3>
-             <!-- <i class="fa fa-star"aria-hidden="true"></i>
-         <i class="fa fa-star"aria-hidden="true"></i>
-         <i class="fa fa-star"aria-hidden="true"></i>
-         <i class="fa fa-star-half-o"aria-hidden="true"></i> -->
-         
-         
-         <i class ="fa fa-star-o"></i>
-             <p class="argent">4000fcfa</p>
-             
-             
-             </div>
-            
-        
-             <div class="col-4">
-            <a href="Blog.php"><img src="pagne.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
-             <!-- <img src="in3.jpg" alt="produit 1"> -->
-             <h3>traditionnel</h3>
-             <!-- <i class="fa fa-star"aria-hidden="true"></i>
-         <i class="fa fa-star"aria-hidden="true"></i>
-         <i class="fa fa-star"aria-hidden="true"></i>
-         <i class="fa fa-star-half-o"aria-hidden="true"></i> -->
-         
-         
-         <i class ="fa fa-star-o"></i>
-             <p class="argent">3000 fcfa</p>
-             
-             
-             </div>
-        </div>
-        
-        
-        </div>
-        
-        </section>
-     
      
 <section class="visite">
 <div class="row row-cols-1 row-cols-md-4 g-10">
     <div class="col">
 <div class="card">
     <div class="card-body">
-        <img src="./2.jpg" alt="">
+        <img src="./equipe.jpg" alt="">
         <h2>Entreprise</h2>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
              Doloribus voluptatem quidem unde praesentium nesciunt, 
@@ -304,7 +278,7 @@ Nous sommes convaincu que les pub des articles aideront à servir cette finalit�
             <div class="col">
     <div class="card">
     <div class="card-body">
-        <img  src="./2.jpg" alt="">
+        <img  src="./cours en ligne.jpg" alt="">
         <h2>Achat</h2>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
              Doloribus voluptatem quidem unde praesentium nesciunt, 
@@ -316,7 +290,7 @@ Nous sommes convaincu que les pub des articles aideront à servir cette finalit�
     <div class="col">
 <div class="card">
     <div class="card-body">
-        <img class='pho' src="./2.jpg" alt="">
+        <img class='pho' src="./shop.jfif" alt="">
         <h2>Contact</h2>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
              Doloribus voluptatem quidem unde praesentium nesciunt, 
@@ -346,26 +320,17 @@ Nous sommes convaincu que les pub des articles aideront à servir cette finalit�
  <div>
     <img src="2.jpg" alt="">
     <h2>fari kiem</h2>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Iste odit praesentium voluptatibus explicabo, tempore in dignissimos
-         blanditiis deleniti at iure!
-         Dicta minus aut sunt? Neque mollitia officia eaque! Eaque, nostrum?</p>
+    <p>Suis trés ravie de travaillée avec Burkina shop ils me satisfait à chaque commande</p>
  </div>
  <div>
     <img src="2.jpg" alt="">
     <h2>kiem Ridoss</h2>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Iste odit praesentium voluptatibus explicabo, tempore in dignissimos
-         blanditiis deleniti at iure!
-         Dicta minus aut sunt? Neque mollitia officia eaque! Eaque, nostrum?</p>
+    <p>Un site facile à utilisé et trés pratique merci à vous</p>
  </div>
  <div>
     <img src="2.jpg" alt="">
     <h2>ridoss fari</h2>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Iste odit praesentium voluptatibus explicabo, tempore in dignissimos
-         blanditiis deleniti at iure!
-         Dicta minus aut sunt? Neque mollitia officia eaque! Eaque, nostrum?</p>
+    <p>Mmerci pour la fiabilité de vos produits et votre disponiblités</p>
  </div>
     </div>
 </section>

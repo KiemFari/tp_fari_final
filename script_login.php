@@ -6,7 +6,6 @@ if (isset($_POST["submit"])) {
             $getdata = $pdo->prepare("SELECT  email FROM admin WHERE email=? and password=?");
             $getdata->execute (array($_POST["username"], $_POST["password"]));
             $rows =$getdata->rowCount();
-
             if($rows==true){
                 $SESSION["admin"]=$_POST["username"];
                 header("Location:admin.php");
