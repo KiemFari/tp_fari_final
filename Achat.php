@@ -33,12 +33,12 @@
         <img src="cop3.jpg" alt="">
     </div>
 </section>
-<section class="featured-products">
+ <section class="featured-products">
         <div class="container">
         
         <div class="row">
          <div class="col-4">
-          <a href="Blog.php"><img src="f.jpg" title="insérer le titre" alt="insérer la description ici"></a>
+          <a href="Blog.php"><img src="cop2.jpg" title="insérer le titre" alt="insérer la description ici"></a>
          <!-- <img src="in1.jpg" alt="produit 1"> -->
          <h3>des habits de hautes qualités</h3>
          <i class="fa fa-star"aria-hidden="true"></i>
@@ -54,11 +54,11 @@
          </div>
          <div class="col-4">
           <a href="Blog.php"><img  src="cop6.jpg" title="insérer le titre" alt="insérer la description ici"></a>
-           <!-- <img src="in2.jpg" alt="produit 1"> -->
-           <h3>des pagnes</h3>
+            <!-- <img src="in2.jpg" alt="produit 1">  -->
+            <h3>des pagnes</h3>
            <i class="fa fa-star"aria-hidden="true"></i>
          <i class="fa fa-star"aria-hidden="true"></i>
-         <!-- <i class="fa fa-star"aria-hidden="true"></i> -->
+         
          <i class="fa fa-star-half-o"aria-hidden="true"></i>
          
          
@@ -68,8 +68,8 @@
            
            </div>
            <div class="col-4">
-            <a href="Blog.php"><img src="cop7.jpg" title="insérer le titre" alt="insérer la description ici"></a>
-             <!-- <img src="in3.jpg" alt="produit 1"> -->
+            <a href="Blog.php"><img src="cop3.jpg" title="insérer le titre" alt="insérer la description ici"></a>
+            
              <h3>kokodonda</h3>
              <i class="fa fa-star"aria-hidden="true"></i>
          <i class="fa fa-star"aria-hidden="true"></i>
@@ -85,8 +85,7 @@
             
         
              <div class="col-4">
-            <a href="Blog.php"><img src="cop8.jpg" title="insérer le titre" alt="insérer la description ici"></a>
-             <!-- <img src="in3.jpg" alt="produit 1"> -->
+            <a href="Blog.php"><img src="cop5.jpg" title="insérer le titre" alt="insérer la description ici"></a>
              <h3>traditionnelle</h3>
              <i class="fa fa-star"aria-hidden="true"></i>
          <i class="fa fa-star"aria-hidden="true"></i>
@@ -110,8 +109,8 @@
         
         <div class="row">
          <div class="col-4">
-          <a href="Blog.php"><img src="2.jpg" title="insérer le titre" alt="insérer la description ici"></a>
-         <!-- <img src="in1.jpg" alt="produit 1"> -->
+          <a href="Blog.php"><img src="cc.jpg" title="insérer le titre" alt="insérer la description ici"></a>
+         
          <h3>des habits de hautes qualités</h3>
          <i class="fa fa-star"aria-hidden="true"></i>
          <i class="fa fa-star"aria-hidden="true"></i>
@@ -125,12 +124,11 @@
          
          </div>
          <div class="col-4">
-          <a href="Blog.php"><img  src="2.jpg" title="insérer le titre" alt="insérer la description ici"></a>
-           <!-- <img src="in2.jpg" alt="produit 1"> -->
+          <a href="Blog.php"><img  src="cop.jpg" title="insérer le titre" alt="insérer la description ici"></a>
            <h3>des pagnes</h3>
            <i class="fa fa-star"aria-hidden="true"></i>
          <i class="fa fa-star"aria-hidden="true"></i>
-         <!-- <i class="fa fa-star"aria-hidden="true"></i> -->
+         
          <i class="fa fa-star-half-o"aria-hidden="true"></i>
          
          <i class ="fa fa-star-o"></i>
@@ -139,8 +137,7 @@
            
            </div>
            <div class="col-4">
-            <a href="Blog.php"><img src="2.jpg" title="insérer le titre" alt="insérer la description ici"></a>
-             <!-- <img src="in3.jpg" alt="produit 1"> -->
+            <a href="Blog.php"><img src="dee.jpg" title="insérer le titre" alt="insérer la description ici"></a>
              <h3>kokodonda</h3>
              <i class="fa fa-star"aria-hidden="true"></i>
          <i class="fa fa-star"aria-hidden="true"></i>
@@ -154,8 +151,7 @@
             
         
              <div class="col-4">
-            <a href="Blog.php"><img src="2.jpg" title="insérer le titre" alt="insérer la description ici"></a>
-             <!-- <img src="in3.jpg" alt="produit 1"> -->
+            <a href="Blog.php"><img src="ff.jpg" title="insérer le titre" alt="insérer la description ici"></a>
              <h3>traditionnelle</h3>
              <i class="fa fa-star"aria-hidden="true"></i>
          <i class="fa fa-star"aria-hidden="true"></i>
@@ -171,7 +167,7 @@
         
         </div>
         
-        </section>
+        </section> 
 
     <!-- lier footer -->
 <?php include ("Footer.php")?>

@@ -97,8 +97,8 @@ header .logo a span{
 
 }
 .acceuilli img{
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
 }
 /*............ home page ............ */
  .home{
@@ -625,6 +625,81 @@ h3{
       bottom: 49%;
       opacity: 1;
   }
+  .imgt{
+    height: 500px;
+    width: 500px;
+  }
 
+
+  /* liste des tables */
+  
+  .kl {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    margin-top: 5px;
+  }
+  
+  .tie {
+    padding-left: 100px;
+    padding-top: 20px;
+  }
+  
+  .raym {
+    padding-left: 250px;
+    padding-bottom: 20px;
+  }
+  
+  .shari {
+    padding-left: 200px;
+  }
+  
+  /* .ik{ 
+      display: flex;
+      justify-content: space-between;
+      
+  
+  }  */
+  
+  .ni {
+    padding-left: 500px;
+    font-style: italic;
+  }
+  
+  .a {
+    height: 400px;
+    width: 400px;
+    padding-top: 50px;
+  }
+  
+  .container-2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  
+  .si {
+    color: rgb(35, 63, 63);
+    width: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+  }
+  
+  .container-3 {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .container-4 {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .wi {
+    padding-top: 40px;
+    color: darkorange;
+    padding-left: 300px;
+  }
+  
 
 

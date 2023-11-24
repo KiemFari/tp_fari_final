@@ -115,14 +115,14 @@
         <a href="Achat.php"><img src="deec.jpg" title="Burkna pagne" alt="insérer la description ici"></a>
         <a href="Achat.php"><img src="dee.jpg" title="Burkna pagne" alt="insérer la description ici"></a>
         </div>
-        <p class="argent">3000 fcfa</p>
+        <p class="argent">3000 fcfa</p> <a href="Achat.php" class="argent">Cliquer ici</a>
         <div class="koko">
         <a href="Achat.php"><img src="doda.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
         <a href="Achat.php"><img src="dond.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
         <a href="Achat.php"><img src="ff.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
         <a href="Achat.php"><img src="images.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
         </div>
-        <p class="argent">3000 fcfa</p>
+        <p class="argent">3000 fcfa</p> <a href="Achat.php" class="argent">Cliquer ici</a>
         <div class="centre">
         <h1>Les pagnes modéle Africaine</h1>
        <P>Nos pagnes kokodonda sont des pagnes inspirées des valeurs representations et ideologiques de l'Afrique<br> typiquement Burkinabées surtout Bobolais pagnes à un prix exceptionnelle qui defie toute concurrence
@@ -134,7 +134,7 @@
         <a href="Achat.php"><img src="cop2.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
         <a href="Achat.php"><img src="cop1.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
         </div>  
-         <p class="argent">3500 fcfa</p><br><br><br>
+         <p class="argent">3500 fcfa</p> <a href="Achat.php" class="argent">Cliquer ici</a><br><br><br>
         <div class="koko">
         <a href="Achat.php"><img src="ff.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
         <a href="Achat.php"><img src="cop3.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
@@ -142,14 +142,16 @@
         <a href="Achat.php"><img src="cop1.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
         </div>
         <p class="argent">3500 fcfa</p>
+        <a href="Achat.php" class="argent">Cliquer ici</a>
         <b><br></b>
         <div class="koko">
         <a href="Achat.php"><img src="cop5.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
         <a href="Achat.php"><img src="cop1.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
         <a href="Achat.php"><img src="cop2.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
         <a href="Achat.php"><img src="cop4.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
-        </div>
+        </div> 
         <p class="argent">3500 fcfa</p>
+        <a href="Achat.php" class="argent">Cliquer ici</a>
         
         <!-- <div class="row">
          <div class="col-4">
@@ -247,21 +249,9 @@
         </div>
         </div>
         </section>  -->
-<h1>La structure</h1>
-<section class="home-next">
 
-<p>Le site Burkina"Shop" est un site en ligne qui vous permet de faciliter 
-    vos achats partout au  Burkina faso sans deplacemment et à moindre coùt. 
-Ma mission à travers le site en effet c'est de faciliter les achats. Chez Burkina shop, nous pensons que le développement du pays passe 
-par une progression des affaires réalisées par les acteurs économiques locaux.
-
-Nous sommes convaincu que les pub des articles aideront à servir cette finalité.
- C'est pourquoi nous développons et popularisons des services en ligne dédiés qui permettent de favoriser
- les interactions économiques entre tous les professionnels Burkinabè.</p>
- <img src="./sim.jpg" alt="">
-</section>
      
-<section class="visite">
+<!-- <section class="visite">
 <div class="row row-cols-1 row-cols-md-4 g-10">
     <div class="col">
 <div class="card">
@@ -300,13 +290,52 @@ Nous sommes convaincu que les pub des articles aideront à servir cette finalit�
     </div>
 </div>
 </div>
-</section>
+</section> -->
+    <div class="tie">
+        <div id="C'est parti!!!!" class="wi">C'est parti !!!!</div>
+        <h1>Notre site en trois principes</h1>
+    </div>
+    <div class="container-2">
+        <div class="leftside">
+            <p class="si">01</p>
+            <h1>Visiter notre page et appreciez nos produits</h1>
+            <p>Nous sommes un site professionnel qui sauvegarde vos information et les securise </p>
+            <p> afin d'eviter des desagrements face à nos clients  <br> satisfaire et protéger nos clients </p>
+            <p>font partis de nos priorités</p>
+        </div>
+        <div class="rightside">
+            <img class="a" src="t1.jpg">
+        </div>
+    </div>
+    <div class="container-3">
+        <div class="leftside">
+            <img class="a" src="t2.jpg">
+        </div>
+        <div class="rightside1">
+            <p class="si">02</p>
+            <h1>Approbation et achat </h1>
+            <p>Nous vous donnons l'occasion de pouvoir voir vos articles et de les modifier avant de solder </p>
+            <p> Nous sommes en colaboration avec les agences mobile money et banque afin de vous faciliter vos payements</p>
+            
+        </div>
+
+    </div>
+    <div class="container-4">
+        <div class="leftside">
+            <p class="si">03</p>
+            <h1>Reception votre colis</h1>
+            <p>Nous avons un service qualités en matiére de livraison expédition</p>
+            <p>vous serez ravie de votre commande et de votre livraison </p>
+            <p>N'hesitez pas à nous laisser un message retour afin d'encourager nos futurs clients</p>
+        </div>
+        <div class="rightside">
+            <img class="a" src="t3.jpg">
+        </div>
+        <!-- </section> -->
+    </div>
 
 
-
-
-
- <!------- Call to Action ------>
+     <!------- Call to Action ------>
 
  <section class="cta">
         <h1>Suivez nous partout au burkina faso </h1>
@@ -323,12 +352,12 @@ Nous sommes convaincu que les pub des articles aideront à servir cette finalit�
     <p>Suis trés ravie de travaillée avec Burkina shop ils me satisfait à chaque commande</p>
  </div>
  <div>
-    <img src="2.jpg" alt="">
+    <img src="koka.jpg" alt="">
     <h2>kiem Ridoss</h2>
     <p>Un site facile à utilisé et trés pratique merci à vous</p>
  </div>
  <div>
-    <img src="2.jpg" alt="">
+    <img src="call.jpg" alt="">
     <h2>ridoss fari</h2>
     <p>Mmerci pour la fiabilité de vos produits et votre disponiblités</p>
  </div>

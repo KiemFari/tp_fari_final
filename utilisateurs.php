@@ -1,5 +1,5 @@
 <!-- <?php
-include('connexionBDD.php');
+include('con_dbb.php');
 
 @$nom=$_POST['titre'];
 @$prenom=$_POST['description'];
@@ -327,11 +327,16 @@ if (isset($submit)) {
             <li class="nav-item">
               <a class="nav-link d-flex align-items-center gap-2" href="#">
                 <svg class="bi"><use xlink:href="#people"/></svg>
-                Customers
+                liste de produits
               </a>
             </li>
             
-            
+            <li class="nav-item">
+              <a class="nav-link d-flex align-items-center gap-2" href="#">
+                <svg class="bi"><use xlink:href="#people"/></svg>
+                Commentaire
+              </a>
+            </li>
           </ul>
 
           <hr class="my-3">

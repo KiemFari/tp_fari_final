@@ -16,8 +16,20 @@ Entreprise.php
 <body>
     <?php include ("nav.php"); ?>
 
+    <h1>La structure "BURKINA SHOP"</h1>
+<section class="home-next">
 
-    <section class="candidat">
+<p>Le site Burkina"Shop" est un site en ligne qui vous permet de faciliter 
+    vos achats partout au  Burkina faso sans deplacemment et à moindre coùt. 
+Ma mission à travers le site en effet c'est de faciliter les achats. Chez Burkina shop, nous pensons que le développement du pays passe 
+par une progression des affaires réalisées par les acteurs économiques locaux.
+
+Nous sommes convaincu que les pub des articles aideront à servir cette finalité.
+ C'est pourquoi nous développons et popularisons des services en ligne dédiés qui permettent de favoriser
+ les interactions économiques entre tous les professionnels Burkinabè.</p>
+ <img src="./sim.jpg" alt="">
+</section>
+    <!-- <section class="candidat">
         <div>
             <p>Notre entreprise</p>
             <h1>Burkina Shop</h1>
@@ -25,9 +37,9 @@ Entreprise.php
                      <a href="" class="hero-btn">PLUS D'INFO</a>
         </div>
         <div>
-            <img class="imgt" src="./comment-puis-je-vous-aider-beau-jeune-homme-africain-travaillant-ordinateur-portable-vous-souriant-se-tenant-debout_425904-21663.avif" alt="">
+            <img class="imgt" src="call.jpg" alt="">
         </div>
-                </section>
+                </section> -->
     <!-- lier footer -->
 <?php include ("Footer.php")?>
 
