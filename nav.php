@@ -57,12 +57,12 @@
         <li>  <a href="service.php"><option value="">Nos services</option></a></li> 
     </select></li>  </div>
     
-                <li><a href="Achat.php">Achat</a></li>
-                <li><a href="Blog.php">Panier</a></li>
+                <!-- <li><a href="Achat.php">Achat</a></li> -->
                 <li><a href="contact.php">Contact</a></li>
                 <li><a href="inscription.php">inscription</a></li>
                 <li><a href="connexion.php">connexion</a></li>
                 <li><a href="deconnexion.php">deconnexion</a></li>
+                <li><a href="panier.php">Panier</a></li>
             </ul>
           
         </nav>

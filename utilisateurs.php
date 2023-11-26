@@ -70,8 +70,10 @@ if (isset($submit)) {
 }else{
       
  } 
+ include('connexionBDD.php');
 
 ?>
+
 
 <!doctype html>
 <html lang="en" data-bs-theme="auto">
@@ -321,18 +323,24 @@ if (isset($submit)) {
             <li class="nav-item">
               <a class="nav-link d-flex align-items-center gap-2" href="utilisateurs.php">
                 <svg class="bi"><use xlink:href="#cart"/></svg>
-                utilisateurs
+                liste de clients
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link d-flex align-items-center gap-2" href="#">
+              <a class="nav-link d-flex align-items-center gap-2" href="liste de produit.php">
                 <svg class="bi"><use xlink:href="#people"/></svg>
                 liste de produits
               </a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link d-flex align-items-center gap-2" href="liste de panier.php">
+                <svg class="bi"><use xlink:href="#people"/></svg>
+                liste de panier
+              </a>
+            </li>
             
             <li class="nav-item">
-              <a class="nav-link d-flex align-items-center gap-2" href="#">
+              <a class="nav-link d-flex align-items-center gap-2" href="commentaire.php">
                 <svg class="bi"><use xlink:href="#people"/></svg>
                 Commentaire
               </a>
@@ -361,14 +369,38 @@ if (isset($submit)) {
           <thead>
             <tr>
               <th scope="col">#</th>
-              <th scope="col">NOM</th>
-              <th scope="col">Image</th>
-              <th scope="col">profession</th>
-              <th scope="col">Email</th>
+              <th scope="col">nom</th>
+              <th scope="col">prenom</th>
+              <th scope="col">email</th>
+              <th scope="col">code</th>
+              <th scope="col">role</th>
+              <th scope="col">action</th>
+              <th scope="col">action</th>
+              <th scope="col">action</th>
+
             </tr>
           </thead>
           <tbody>
-           
+          <?php
+          $req = $bdd->query("SELECT * FROM connecte");
+          while($user= $req->fetch()) {
+            ?> 
+            <tr>
+              <td></td>
+              <td> <?php echo $user['nom'] ?></td>
+              <td> <?php  echo $user['prenom'] ?></td>
+              <td> <?php echo $user['email'] ?></td> 
+              <td> <?php echo $user['code'] ?></td>
+              <td> <?php echo $user['role'] ?></td>
+              <td><button style="width: 135px; height: 35px; background: black; border: none; border-raduis: 10px; 
+              "><a href="">modifier</a></button></td>
+              <td><button style="width: 135px; height: 35px; background: black; border: none; border-raduis: 10px; 
+              "><a href="">Supprimer</a></button></td>
+                        <td><button style="width: 135px; height: 35px; background: green; border: none; border-raduis: 10px; 
+              "><a href="">Ajouter</a></button></td>
+            </tr> 
+          
+          <?php } ?>
           </tbody>
         </table>
       </div>

@@ -18,7 +18,7 @@ if (isset($submit)) {
           
     }
     else{
-        $info_users = $bdd->query("SELECT *FROM connect WHERE email='$email' ")->fetch();
+        $info_users = $bdd->query("SELECT *FROM connecte WHERE email='$email' ")->fetch();
 
         if($info_users !== false){
 

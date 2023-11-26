@@ -71,6 +71,7 @@ if (isset($submit)) {
       
  } 
  include('connexionBDD.php');
+ include_once "con_dbb.php";
 
 ?>
 
@@ -340,7 +341,7 @@ if (isset($submit)) {
             <li class="nav-item">
               <a class="nav-link d-flex align-items-center gap-2" href="commentaire.php">
                 <svg class="bi"><use xlink:href="#people"/></svg>
-                Commentaire
+                commentaire
               </a>
             </li>
             
@@ -368,11 +369,9 @@ if (isset($submit)) {
           <thead>
             <tr>
               <th scope="col">#</th>
-              <th scope="col">photo</th>
+              <th scope="col">img</th>
               <th scope="col">nom</th>
-              <th scope="col">prix</th>
-              <th scope="col">code</th>
-              <th scope="col">role</th>
+              <th scope="col">price</th>
               <th scope="col">action</th>
               <th scope="col">action</th>
               <th scope="col">action</th>
@@ -380,22 +379,20 @@ if (isset($submit)) {
           </thead>
           <tbody>
           <?php
-          $req = $bdd->query("SELECT * FROM connecte");
+          $req = $bdd->query("SELECT * FROM panier ");
           while($user= $req->fetch()) {
             ?> 
             <tr>
               <td></td>
-              <td> <?php echo $user['nom'] ?></td>
-              <td> <?php  echo $user['prenom'] ?></td>
-              <td> <?php echo $user['email'] ?></td> 
-              <td> <?php echo $user['code'] ?></td>
-              <td> <?php echo $user['role'] ?></td>
+              <td> <?php echo $user['img'] ?></td>
+              <td> <?php  echo $user['nom'] ?></td>
+              <td> <?php echo $user['price'] ?></td> 
               <td><button style="width: 135px; height: 35px; background: green; border: none; border-raduis: 10px; 
-              "><a href="modifier.php"></a>modifier</button></td>
+              "><a href=""></a>modifier</button></td>
               <td><button style="width: 135px; height: 35px; background: green; border: none; border-raduis: 10px; 
               "><a href="">supprimer</a></button></td>
-               <td><button style="width: 135px; height: 35px; background: green; border: none; border-raduis: 10px; 
-              "><a href="ajouter.php">Ajouter</a></button></td>
+             <td><button style="width: 135px; height: 35px; background: green; border: none; border-raduis: 10px; 
+              "><a href="">Ajouter</a></button></td>
             </tr> 
           
           <?php } ?>
@@ -413,4 +410,6 @@ if (isset($submit)) {
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.2.1/dist/chart.umd.min.js" integrity="sha384-gdQErvCNWvHQZj6XZM0dNsAoY4v+j5P1XDpNkcM3HJG1Yx04ecqIHk7+4VBOCHOG" crossorigin="anonymous"></script><script src="dashboard.js"></script></body>
 </html>
+
+
 

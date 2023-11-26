@@ -1,22 +1,14 @@
 
-<!-- <?php
+ <?php
   session_start();
-  session_destroy();
-  if( isset($_SESSION['id_user']) && !empty($_SESSION['id_user']) ){
 
-    header("location:connexion.php");
-    exit;
-
-}else{
-      
- } 
-
-?> -->
+?> 
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
  integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
@@ -28,6 +20,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./panier.css">
     <title>Site E_COMMERCE</title>
 </head>
 <body>
@@ -61,52 +54,125 @@
 <button href="Inscription.php" class="btn btn-secondary">Commander ici</button>
  -->
 </section>
+<section class="fari">
+    <!-- afficher le nombre de produit dans le panier -->
 
 
-<!-- <section class="featured-products">
-        <div class="container">
-        
-        <div class="row">
-         <div class="col-4">
+         <a href="panier.php" class="link">Panier<span><?=array_sum($_SESSION['commerce'])?></span></a>
+
+         <section class="products_list">
          <?php
          //inclure la page de connexion
         
          include_once "con_dbb.php";
 
-         $reponse=$bdd->query("SELECT * FROM produits");
-         while($donnees=$reponse->fetch()){
+         //afficher les produits 
+         $req= mysqli_query( $con, "SELECT * FROM panier");
+         while($row = mysqli_fetch_assoc($req)){
             ?>
-            <div>
-            <a href="#"><img src="<?php echo $donnees['photo'];?>" alt="" > </a>
-        </div>
-        <div>
-         <h3 class="fw-semibold mb-0 text-body-emphasis">
-         <?php echo $donnees['titre'];?>
-         </h3>
-         <i class ="fa fa-star-o"></i>
-
-         <p class="argent">
-            <?php echo $donnees['prix'];?> </p>
-         
-         <a href="Blog.php" class="id_product" >Ajouter au panier</a>
-        
-           
-        
-        
-       
+            <form action="" class="product">
+            <div class="image_product">
+                <img src="<?=$row['img']?>">
+            </div>
+            <div class="content">
+                <h4 class="name"><?=$row['nom']?></h4>
+                <h2 class="price"><?=$row['price']?></h2>
+                <a href="ajouter_panier.php?id=<?=$row['id']?>" class="id_product">Ajouter au panier</a>
+            </div>
+        </form>
         <?php }?>
-        </div>
-         </div>
-        </div>
-        </div>
-        </section>
-       -->
-       <!-- <section class="kok">
-         <h2>Les meuilleurs pagnes kokodonda</h2>
-       <P>Nos pagnes kokodonda sont des pagnes realisées avec amour soin et delicatesse pour vous offrir des pagnes <br> typiquements Burkinabées surtout Bobolais
-        Nous vous offrons nos meuilleurs <br> pagnes à un prix exceptionnelle qui defie toute concurerence
-       </P> -->
-       </section>
+          
+            <!-- <form action="" class="product">
+                <div class="image_product">
+                    <img src="./gg.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h4 class="name">texture mou et lourd</h4>
+                    <h2 class="price">3000fcfa</h2>
+                    <a href="#" class="id_product">Ajouter au panier</a>
+                </div>
+            </form>
+            <form action="" class="product">
+                <div class="image_product">
+                    <img src="./deec.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h4 class="name">texture mou et lourd</h4>
+                    <h2 class="price">3000fcfa</h2>
+                    <a href="#" class="id_product">Ajouter au panier</a>
+                </div>
+            </form>
+            <form action="" class="product">
+                <div class="image_product">
+                    <img src="./dee.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h4 class="name">texture mou et lourd</h4>
+                    <h2 class="price">3000fcfa</h2>
+                    <a href="#" class="id_product">Ajouter au panier</a>
+                </div>
+            </form> -->
+         </section>  
+         <h1>Les pagnes modéle Africaine</h1>
+       <P>Nos pagnes kokodonda sont des pagnes inspirées des valeurs representations et ideologiques de l'Afrique<br> typiquement Burkinabées surtout Bobolais pagnes à un prix exceptionnelle qui defie toute concurrence
+       </P> 
+         <section class="products_list">
+            <form action="" class="product">
+                <div class="image_product">
+                    <img src="./cop4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h4 class="name">texture mou</h4>
+                    <h2 class="price">3500fcfa</h2>
+                    <a href="#" class="id_product">Ajouter au panier</a>
+                </div>
+            </form>
+            <form action="" class="product">
+                <div class="image_product">
+                    <img src="./cop6.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h4 class="name">texture mou</h4>
+                    <h2 class="price">3500fcfa</h2>
+                    <a href="#" class="id_product">Ajouter au panier</a>
+                </div>
+            </form>
+            <form action="" class="product">
+                <div class="image_product">
+                    <img src="./cop2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h4 class="name">texture mou</h4>
+                    <h2 class="price">3500fcfa</h2>
+                    <a href="#" class="id_product">Ajouter au panier</a>
+                </div>
+            </form>
+            <form action="" class="product">
+                <div class="image_product">
+                    <img src="./cop.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h4 class="name">texture mou</h4>
+                    <h2 class="price">3500fcfa</h2>
+                    <a href="#" class="id_product">Ajouter au panier</a>
+                </div>
+            </form>
+         </section>   
+
+         </section>
+
+
+
+
+
+
+
+
+
+
+
+
+       <!-- </section>
         <section class="featured-products">
         <div class="container">
             <div class="koko">
@@ -151,7 +217,7 @@
         <a href="Achat.php"><img src="cop4.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
         </div> 
         <p class="argent">3500 fcfa</p>
-        <a href="Achat.php" class="argent">Cliquer ici</a>
+        <a href="Achat.php" class="argent">Cliquer ici</a> -->
         
         <!-- <div class="row">
          <div class="col-4">
@@ -171,8 +237,8 @@
          <i class ="fa fa-star-o"></i>
              </div>  
         </div> -->
-        </div>
-        </section>
+        <!-- </div>
+        </section> -->
         <!-- <section class="featured-products">
         <div class="container">
         
@@ -323,7 +389,7 @@
     <div class="container-4">
         <div class="leftside">
             <p class="si">03</p>
-            <h1>Reception votre colis</h1>
+            <h1>Receptionnez votre colis</h1>
             <p>Nous avons un service qualités en matiére de livraison expédition</p>
             <p>vous serez ravie de votre commande et de votre livraison </p>
             <p>N'hesitez pas à nous laisser un message retour afin d'encourager nos futurs clients</p>

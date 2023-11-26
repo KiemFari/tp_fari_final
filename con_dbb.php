@@ -1,6 +1,6 @@
 <?php 
-//connexion à la base de donnes
-$con =mysqli_connect("localhost", "root" , "");
+//connexion à la base de données
+$con =mysqli_connect("localhost", "root" , "", "commerce");
 //verifier la connexion
 if(!$con) die('Erreur :' .mysqli_connect_error());
 
