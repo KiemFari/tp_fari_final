@@ -46,15 +46,15 @@
                 </ul>
               </li>  -->
               <li class=""> 
-                 <select form="select">
+                 <select id="selectOptions" onchange="redirectToPage()">
            <li>
             <a href="Galerie.php"> <option value="">Sélectionner les options
         </option></a></li> 
         <div class="sous">
-        <li><a href="Entreprise.php"><option value="">Entreprise</option></a></li> 
-        <li> <a href="Catalogue.php"><option value="">Catalogue</option></a></li> 
-        <li>  <a href="modele.php"><option value="">Idée de modele</option></a></li> 
-        <li>  <a href="service.php"><option value="">Nos services</option></a></li> 
+        <li><a href="Entreprise.php"><option value="Entreprise.php">Entreprise</option></a></li> 
+        <li> <a href="Catalogue.php"><option value="Catalogue.php">Catalogue</option></a></li> 
+        <li>  <a href="modele.php"><option value="modele.php">Idée de modele</option></a></li> 
+        <li>  <a href="service.php"><option value="service.php">Nos services</option></a></li> 
     </select></li>  </div>
     
                 <!-- <li><a href="Achat.php">Achat</a></li> -->
@@ -66,4 +66,5 @@
             </ul>
           
         </nav>
+        
         </header> 

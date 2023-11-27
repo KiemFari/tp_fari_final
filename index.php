@@ -76,7 +76,7 @@
             </div>
             <div class="content">
                 <h4 class="name"><?=$row['nom']?></h4>
-                <h2 class="price"><?=$row['price']?></h2>
+                <h2 class="price"><?=$row['price']?>fcfa</h2>
                 <a href="ajouter_panier.php?id=<?=$row['id']?>" class="id_product">Ajouter au panier</a>
             </div>
         </form>
