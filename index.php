@@ -20,6 +20,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./style.js">
   <link rel="stylesheet" href="./panier.css">
     <title>Site E_COMMERCE</title>
 </head>
@@ -112,11 +113,35 @@
                     <a href="#" class="id_product">Ajouter au panier</a>
                 </div>
             </form> -->
-         </section>  
+         </section> 
+        <div class="produ"> 
          <h1>Les pagnes modéle Africaine</h1>
        <P>Nos pagnes kokodonda sont des pagnes inspirées des valeurs representations et ideologiques de l'Afrique<br> typiquement Burkinabées surtout Bobolais pagnes à un prix exceptionnelle qui defie toute concurrence
-       </P> 
-         <section class="products_list">
+       </P> </div>
+
+
+       <section class="products_list">
+         <?php
+         //inclure la page de connexion
+        
+         include_once "con_data.php";
+
+         //afficher les produits 
+         $req= mysqli_query( $con, "SELECT * FROM panie");
+         while($row = mysqli_fetch_assoc($req)){
+            ?>
+            <form action="" class="product">
+            <div class="image_product">
+                <img src="<?=$row['img']?>">
+            </div>
+            <div class="content">
+                <h4 class="name"><?=$row['nom']?></h4>
+                <h2 class="price"><?=$row['price']?>fcfa</h2>
+                <a href="ajouter_panier.php?id=<?=$row['id']?>" class="id_product">Ajouter au panier</a>
+            </div>
+        </form>
+        <?php }?>
+         <!-- <section class="products_list">
             <form action="" class="product">
                 <div class="image_product">
                     <img src="./cop4.jpg" alt="">
@@ -157,7 +182,7 @@
                     <a href="#" class="id_product">Ajouter au panier</a>
                 </div>
             </form>
-         </section>   
+         </section>    -->
 
          </section>
 
@@ -363,7 +388,7 @@
     </div>
     <div class="container-2">
         <div class="leftside">
-            <p class="si">01</p>
+            <p class="si">01</p><br>
             <h1>Visiter notre page et appreciez nos produits</h1>
             <p>Nous sommes un site professionnel qui sauvegarde vos information et les securise </p>
             <p> afin d'eviter des desagrements face à nos clients  <br> satisfaire et protéger nos clients </p>
@@ -385,10 +410,10 @@
             
         </div>
 
-    </div>
+    </div><br>
     <div class="container-4">
         <div class="leftside">
-            <p class="si">03</p>
+            <p class="si">03</p><br><br>
             <h1>Receptionnez votre colis</h1>
             <p>Nous avons un service qualités en matiére de livraison expédition</p>
             <p>vous serez ravie de votre commande et de votre livraison </p>

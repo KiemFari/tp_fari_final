@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 
 
  @$email=$_POST['email'];
@@ -24,6 +24,9 @@ if (isset($submit)) {
 
             if($info_users['code'] == $code AND $info_users['role'] == 'administrateur'){
 
+                $_SESSION['id'] = $info_users['id'];
+                $_SESSION['nom'] = $info_users['nom'];
+                $_SESSION['email'] = $info_users['email'];
                 
                     header('location:admin.php');
                 
@@ -32,7 +35,10 @@ if (isset($submit)) {
             elseif
                 ($info_users['code'] == $code AND $info_users['role'] == 'utilisateur'){
 
-                
+                $_SESSION['id'] = $info_users['id'];
+                $_SESSION['nom'] = $info_users['nom'];
+                $_SESSION['email'] = $info_users['email'];
+
                     header('location:index.php');
                 
             }
@@ -66,8 +72,8 @@ if (isset($submit)) {
 
         <h1>Connexion</h1>
         <form action="" method="POST">
-            <input type="email" name="email" placeholder="Entrez votre Email">
-            <input type="password" name="code" placeholder="Entrez votre mot de passe">
+            <input type="email" name="email" autocomplete="off" placeholder="Entrez votre Email">
+            <input type="password" name="code" autocomplete="off" placeholder="Entrez votre mot de passe">
             <input type="submit" value="Se connecter" name="submit" class="submit">
 
             <div style="color: red; font-family:Arial, sans-serif;"><?php echo $err ?></div>

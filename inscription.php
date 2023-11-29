@@ -50,10 +50,10 @@ if (isset($submit)) {
 
         <h1>Inscription</h1>
         <form action="" method="POST">
-            <input type="text" name="nom"  placeholder="Entrez votre nom">
-            <input type="text" name="prenom" placeholder="Entrez votre prenom">
-            <input type="email" name="email" placeholder="Entrez votre Email">
-            <input type="password" name="code" placeholder="Entrez votre mot de passe">
+            <input type="text" name="nom" autocomplete="off" placeholder="Entrez votre nom">
+            <input type="text" name="prenom" autocomplete="off" placeholder="Entrez votre prenom">
+            <input type="email" name="email" autocomplete="off" placeholder="Entrez votre Email">
+            <input type="password" name="code" autocomplete="off" placeholder="Entrez votre mot de passe">
             <input type="submit" value="VALIDER" name="submit" class="submit">
 
             <div><?php echo $err?></div>

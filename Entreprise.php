@@ -13,8 +13,9 @@ Entreprise.php
   <link rel="stylesheet" href="./style.css">
     <title>Entreprise</title>
 </head>
+<?php include ("nav.php"); ?><br><br>
 <body>
-    <?php include ("nav.php"); ?>
+    
 
     <h1>La structure "BURKINA SHOP"</h1>
 <section class="home-next">

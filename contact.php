@@ -10,7 +10,7 @@
    rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
     crossorigin="anonymous">
   <link rel="stylesheet" href="./style.css">
-    <title>Page contact</title>
+    <title>Page contact  </title>
 </head>
 <body>
     <?php include ("nav.php"); ?>
@@ -34,9 +34,9 @@ Contactez Burkina"shop", l'ensemble de notre site  est  à votre service</h1>
         <label for="telephone">telephone :</label>
         <input type="telephone" id="telephone" name=" votre telephone" required>
         <label for="message">votre message :</label>
-        <input type="text" id="message" name=" Votre message" required>
+        <textarea name="message" placeholder="Votre message"  rows="10" class="form-control" required></textarea>
        
-        <a href="contact.php" type="submit">Envoyer !</a>
+        <a href="conta.php" type="submit">Envoyer !</a>
         <p>*Vous serez redirigé vers votre messagerie . <br> Il vous suffira d'envoyer le mail 
         automatiquement crée *</p>
       
