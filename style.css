@@ -820,5 +820,15 @@ h3{
       }
 
   }
+  /* ville a visiter page index  */
+.service_card{
+    background-image: url(cop.jpg);
+}
+.Catalogue_card{
+    background-image: url(cop.jpg);
+}
+.modele_card{
+    background-image: url(cop.jpg);
+}
   
   

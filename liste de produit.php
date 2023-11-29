@@ -394,8 +394,9 @@ if (isset($submit)) {
              <td><button style="width: 135px; height: 35px; background: green; border: none; border-raduis: 10px; 
               "><a href="">Ajouter</a></button></td>
             </tr> 
-          
+         
           <?php } ?>
+          <a href="ajouter_form.php" class="btn btn-primary">Ajouter un produit</a>
           </tbody>
         </table>
       </div>

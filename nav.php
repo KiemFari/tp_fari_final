@@ -58,7 +58,7 @@ include('connexionBDD.php');
         <li>  <a href="modele.php"><option >Idée de modele</option></a></li> 
         <li>  <a href="service.php"><option >Nos services</option></a></li> 
     </select> -->
-    <form action="select">
+    <!-- <form action="select">
   <label for="selected"></label>
   <select id="selectOptions" onchange="redirectToPage()">
     <option value="modele.php">modele</option>
@@ -66,8 +66,9 @@ include('connexionBDD.php');
     <option value="servive.php">service</option>
     <option value="Entreprise.php">Entreprise</option>
   </select>
-</form>
-    
+</form> -->
+
+<li><a href="Entreprise.php">A propos</a></li>
                 <!-- <li><a href="Achat.php">Achat</a></li> -->
                 <li><a href="contact.php">Contact</a></li>
                 <?php if(isset($_SESSION['nom'])){?>

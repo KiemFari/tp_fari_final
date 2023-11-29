@@ -10,6 +10,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
  integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
   crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -82,37 +83,7 @@
             </div>
         </form>
         <?php }?>
-          
-            <!-- <form action="" class="product">
-                <div class="image_product">
-                    <img src="./gg.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h4 class="name">texture mou et lourd</h4>
-                    <h2 class="price">3000fcfa</h2>
-                    <a href="#" class="id_product">Ajouter au panier</a>
-                </div>
-            </form>
-            <form action="" class="product">
-                <div class="image_product">
-                    <img src="./deec.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h4 class="name">texture mou et lourd</h4>
-                    <h2 class="price">3000fcfa</h2>
-                    <a href="#" class="id_product">Ajouter au panier</a>
-                </div>
-            </form>
-            <form action="" class="product">
-                <div class="image_product">
-                    <img src="./dee.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h4 class="name">texture mou et lourd</h4>
-                    <h2 class="price">3000fcfa</h2>
-                    <a href="#" class="id_product">Ajouter au panier</a>
-                </div>
-            </form> -->
+          </section>
          </section> 
         <div class="produ"> 
          <h1>Les pagnes modéle Africaine</h1>
@@ -141,248 +112,9 @@
             </div>
         </form>
         <?php }?>
-         <!-- <section class="products_list">
-            <form action="" class="product">
-                <div class="image_product">
-                    <img src="./cop4.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h4 class="name">texture mou</h4>
-                    <h2 class="price">3500fcfa</h2>
-                    <a href="#" class="id_product">Ajouter au panier</a>
-                </div>
-            </form>
-            <form action="" class="product">
-                <div class="image_product">
-                    <img src="./cop6.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h4 class="name">texture mou</h4>
-                    <h2 class="price">3500fcfa</h2>
-                    <a href="#" class="id_product">Ajouter au panier</a>
-                </div>
-            </form>
-            <form action="" class="product">
-                <div class="image_product">
-                    <img src="./cop2.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h4 class="name">texture mou</h4>
-                    <h2 class="price">3500fcfa</h2>
-                    <a href="#" class="id_product">Ajouter au panier</a>
-                </div>
-            </form>
-            <form action="" class="product">
-                <div class="image_product">
-                    <img src="./cop.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h4 class="name">texture mou</h4>
-                    <h2 class="price">3500fcfa</h2>
-                    <a href="#" class="id_product">Ajouter au panier</a>
-                </div>
-            </form>
-         </section>    -->
-
+        
          </section>
-
-
-
-
-
-
-
-
-
-
-
-
-       <!-- </section>
-        <section class="featured-products">
-        <div class="container">
-            <div class="koko">
-        <a href="Achat.php"><img src="ff.jpg" title="Burkna pagne" alt="insérer la description ici"></a>
-        <a href="Achat.php"><img src="gg.jpg" title="Burkna pagne" alt="insérer la description ici"></a>
-        <a href="Achat.php"><img src="deec.jpg" title="Burkna pagne" alt="insérer la description ici"></a>
-        <a href="Achat.php"><img src="dee.jpg" title="Burkna pagne" alt="insérer la description ici"></a>
-        </div>
-        <p class="argent">3000 fcfa</p> <a href="Achat.php" class="argent">Cliquer ici</a>
-        <div class="koko">
-        <a href="Achat.php"><img src="doda.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
-        <a href="Achat.php"><img src="dond.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
-        <a href="Achat.php"><img src="ff.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
-        <a href="Achat.php"><img src="images.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
-        </div>
-        <p class="argent">3000 fcfa</p> <a href="Achat.php" class="argent">Cliquer ici</a>
-        <div class="centre">
-        <h1>Les pagnes modéle Africaine</h1>
-       <P>Nos pagnes kokodonda sont des pagnes inspirées des valeurs representations et ideologiques de l'Afrique<br> typiquement Burkinabées surtout Bobolais pagnes à un prix exceptionnelle qui defie toute concurrence
-       </P>
-       </div>
-        <div class="koko">
-        <a href="Achat.php"><img src="cop.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
-        <a href="Achat.php"><img src="cop1.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
-        <a href="Achat.php"><img src="cop2.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
-        <a href="Achat.php"><img src="cop1.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
-        </div>  
-         <p class="argent">3500 fcfa</p> <a href="Achat.php" class="argent">Cliquer ici</a><br><br><br>
-        <div class="koko">
-        <a href="Achat.php"><img src="ff.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
-        <a href="Achat.php"><img src="cop3.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
-        <a href="Achat.php"><img src="cop6.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
-        <a href="Achat.php"><img src="cop1.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
-        </div>
-        <p class="argent">3500 fcfa</p>
-        <a href="Achat.php" class="argent">Cliquer ici</a>
-        <b><br></b>
-        <div class="koko">
-        <a href="Achat.php"><img src="cop5.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
-        <a href="Achat.php"><img src="cop1.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
-        <a href="Achat.php"><img src="cop2.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
-        <a href="Achat.php"><img src="cop4.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
-        </div> 
-        <p class="argent">3500 fcfa</p>
-        <a href="Achat.php" class="argent">Cliquer ici</a> -->
-        
-        <!-- <div class="row">
-         <div class="col-4">
-          <a href="Blog.php"><img src="ff.jpg" title="Burkna pagne" alt="insérer la description ici"></a>
-         <i class ="fa fa-star-o"></i>
-         </div>
-         <div class="col-4">
-          <a href="Blog.php"><img  src="gg.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
-         <i class ="fa fa-star-o"></i>
-           </div>
-           <div class="col-4">
-            <a href="Blog.php"><img src="deec.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
-         <i class ="fa fa-star-o"></i>
-             </div>
-             <div class="col-4">
-            <a href="Blog.php"><img src="dee.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
-         <i class ="fa fa-star-o"></i>
-             </div>  
-        </div> -->
-        <!-- </div>
-        </section> -->
-        <!-- <section class="featured-products">
-        <div class="container">
-        
-        <div class="row">
-         <div class="col-4">
-          <a href="Blog.php"><img src="pagne.jpg" title="Burkna pagne" alt="insérer la description ici"></a>
-         <img src="in1.jpg" alt="produit 1"> -->
-         <!-- <i class="fa fa-star"aria-hidden="true"></i>
-         <i class="fa fa-star"aria-hidden="true"></i>
-         <i class="fa fa-star"aria-hidden="true"></i>
-         <i class="fa fa-star-half-o"aria-hidden="true"></i> -->
-         
-         
-         <!-- <i class ="fa fa-star-o"></i>
-         <p class="argent">3500 fcfa </p>
-         
-         
-         </div>
-         <div class="col-4">
-          <a href="Blog.php"><img  src="pagne.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
-           <h3>des pagnes</h3>
-         <i class="fa fa-star-half-o"aria-hidden="true"></i>
-         <i class ="fa fa-star-o"></i>
-           <p class="argent">5000 fcfa</p>
-           </div>
-           <div class="col-4">
-            <a href="Blog.php"><img src="pagne.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
-             <h3>kokodonda</h3>
-         <i class ="fa fa-star-o"></i>
-             <p class="argent">4000fcfa</p>
-             </div>
-             <div class="col-4">
-            <a href="Blog.php"><img src="pagne.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
-             <h3>traditionnel</h3>
-         <i class ="fa fa-star-o"></i>
-             <p class="argent">3000 fcfa</p>
-             </div>
-        </div>
-        
-        
-        </div>
-        
-        </section>
-        </section> -->
-        <!-- <section class="featured-products">
-        <div class="container">
-        
-        <div class="row">
-         <div class="col-4">
-          <a href="Blog.php"><img src="images.jpg" title="Burkna pagne" alt="insérer la description ici"></a>
-         <h3>des habits de hautes qualités</h3>
-         <i class ="fa fa-star-o"></i>
-         <p class="argent">3500 fcfa </p>
-         </div>
-         <div class="col-4">
-          <a href="Blog.php"><img  src="images.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
-           <h3>des pagnes</h3>
-         <i class="fa fa-star-half-o"aria-hidden="true"></i>
-         <i class ="fa fa-star-o"></i>
-           <p class="argent">5000 fcfa</p>
-           </div>
-           <div class="col-4">
-            <a href="Blog.php"><img src="images.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
-             <h3>kokodonda</h3>
-         <i class ="fa fa-star-o"></i>
-             <p class="argent">4000fcfa</p>
-             </div>
-             <div class="col-4">
-            <a href="Blog.php"><img src="images.jpg" title="Burkina pagne" alt="insérer la description ici"></a>
-             <h3>traditionnel</h3>
-         <i class ="fa fa-star-o"></i>
-             <p class="argent">3000 fcfa</p>
-             </div>
-        </div>
-        </div>
-        </section>  -->
-
-     
-<!-- <section class="visite">
-<div class="row row-cols-1 row-cols-md-4 g-10">
-    <div class="col">
-<div class="card">
-    <div class="card-body">
-        <img src="./equipe.jpg" alt="">
-        <h2>Entreprise</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-             Doloribus voluptatem quidem unde praesentium nesciunt, 
-             </p>
-             <a href="Galerie.php" class="btn btn-primary">Decouvrez</a>
-            </div>
-            </div>
-            </div>
-            <div class="col">
-    <div class="card">
-    <div class="card-body">
-        <img  src="./cours en ligne.jpg" alt="">
-        <h2>Achat</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-             Doloribus voluptatem quidem unde praesentium nesciunt, 
-             </p>
-             <a href="Achat.php" class="btn btn-primary">Decouvrez</a>
-    </div>
-    </div>
-    </div>
-    <div class="col">
-<div class="card">
-    <div class="card-body">
-        <img class='pho' src="./shop.jfif" alt="">
-        <h2>Contact</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-             Doloribus voluptatem quidem unde praesentium nesciunt, 
-             </p>
-             <a href="Contact.php" class="btn btn-primary">Decouvrez</a>
-    </div>
-    </div>
-</div>
-</div>
-</section> -->
-    <div class="tie">
+ <div class="tie">
         <div id="C'est parti!!!!" class="wi">C'est parti !!!!</div>
         <h1>Notre site en trois principes</h1>
     </div>
@@ -425,7 +157,69 @@
         <!-- </section> -->
     </div>
 
+ <!-- section site touristique -->
+ <div class="container px-4 py-5" id="custom-cards">
+        <h2 class="pb-2 border-bottom">Decouvrez +++++</h2>
 
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+            <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg service_card">
+
+                    <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                        <h4 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Service</h4>
+                        <ul class="d-flex list-unstyled mt-auto">
+                            <li class="me-auto">
+                                <img src="sim.jpg" alt="Bootstrap" width="32" height="32"
+                                    class="rounded-circle border border-white">
+                            </li>
+
+                            <a href="service.php" class="btn btn-light">Decouvrir</a>
+
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg  Catalogue_card">
+                    <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                        <h4 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                            Catalogue
+                        </h4>
+                        <ul class="d-flex list-unstyled mt-auto">
+                            <li class="me-auto">
+                                <img src="cop.jpg" alt="Bootstrap" width="32" height="32"
+                                    class="rounded-circle border border-white">
+                            </li>
+
+                            <a href="Catalogue.php" class="btn btn-light">Decouvrir</a>
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg modele_card">
+                    <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                        <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Modele</h3>
+                        <ul class="d-flex list-unstyled mt-auto">
+                            <li class="me-auto">
+                                <img src="pagnerobe.jpg" alt="Bootstrap" width="32" height="32"
+                                    class="rounded-circle border border-white">
+                            </li>
+
+                            <a href="modele.php" class="btn btn-light">Decouvrir</a>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- fin section site touristique -->
      <!------- Call to Action ------>
 
  <section class="cta">
@@ -450,12 +244,12 @@
  <div>
     <img src="call.jpg" alt="">
     <h2>ridoss fari</h2>
-    <p>Mmerci pour la fiabilité de vos produits et votre disponiblités</p>
+    <p>Merci pour la fiabilité de vos produits et votre disponiblités</p>
  </div>
     </div>
 </section>
 <!-- lier footer -->
 <?php include ("Footer.php")?> 
-
+<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>

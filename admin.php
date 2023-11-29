@@ -393,7 +393,7 @@ if (isset($submit)) {
               <td><button style="width: 135px; height: 35px; background: green; border: none; border-raduis: 10px; 
               "><a href="modifier.php"></a>modifier</button></td>
               <td><button style="width: 135px; height: 35px; background: green; border: none; border-raduis: 10px; 
-              "><a href="supprimer.php">supprimer</a></button></td>
+              "><a href="admin.php">supprimer</a></button></td>
                <td><button style="width: 135px; height: 35px; background: green; border: none; border-raduis: 10px; 
               "><a href="ajouter.php">Ajouter</a></button></td>
             </tr> 

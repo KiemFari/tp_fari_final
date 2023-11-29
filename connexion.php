@@ -1,6 +1,6 @@
 <?php
 session_start();
-
+include('connexionBDD.php');
 
  @$email=$_POST['email'];
  @$code=$_POST['code'];
@@ -8,7 +8,7 @@ session_start();
  @$erreur="";
  @$err="";
 
- include('connexionBDD.php');
+
 
 if (isset($submit)) {
 
