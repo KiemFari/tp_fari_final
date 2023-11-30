@@ -166,7 +166,7 @@
                 <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg service_card">
 
                     <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                        <h4 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Service</h4>
+                        <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Service</h3>
                         <ul class="d-flex list-unstyled mt-auto">
                             <li class="me-auto">
                                 <img src="sim.jpg" alt="Bootstrap" width="32" height="32"
@@ -184,16 +184,14 @@
             <div class="col">
                 <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg  Catalogue_card">
                     <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                        <h4 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
-                            Catalogue
-                        </h4>
+                        <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"> Catalogue </h3>
                         <ul class="d-flex list-unstyled mt-auto">
                             <li class="me-auto">
                                 <img src="cop.jpg" alt="Bootstrap" width="32" height="32"
                                     class="rounded-circle border border-white">
                             </li>
 
-                            <a href="Catalogue.php" class="btn btn-light">Decouvrir</a>
+                            <a href="Catalogue.php" class="btn btn-primary">Decouvrir</a>
 
 
                         </ul>
@@ -211,7 +209,7 @@
                                     class="rounded-circle border border-white">
                             </li>
 
-                            <a href="modele.php" class="btn btn-light">Decouvrir</a>
+                            <a href="modele.php" class="btn btn-primary">Decouvrir</a>
 
                         </ul>
                     </div>

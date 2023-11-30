@@ -1,6 +1,4 @@
 <?php
-
-
 include('connexionBDD.php');
 
  @$nom=$_POST['nom'];

@@ -28,7 +28,7 @@ if (isset($_GET['id'])) {
     $_SESSION['supr']=' supprimer avec Success';
 
     // echo $d['id'];
-    header('Location:admin.php?id='.$d['id']);
+    header('Location:index.php?id='.$d['id']);
 
 }
 

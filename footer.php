@@ -17,12 +17,14 @@
         </div>
         <div class="RA">
     <h4>Support</h4>
-    <p>Acceuil</p>
-    <p>Entreprise</p>
-    <p>Achat</p>
-    <p>Inscription</p>
-    <p>Connexion</p>
-    <p>Mentions Legales</p>
+   <p><a href="index.php">acceuil</a></p> 
+    <p><a href="Entreprise.php">A propos</a> </p>
+    <p><a href="Catalogue.php">Catalogue</a></p>
+    <p><a href="modele.php">Modele</a></p>
+    <p><a href="service.php">Service</a></p>
+    <p><a href="inscription.php">Inscription</a> </p>
+    <p> <a href="connexion.php">Connexion</a></p>
+    
     </div>
     <div class="rachi">
     <h4>Entreprendre</h4>
@@ -31,13 +33,14 @@
         <p>Entreprise privée</p>
         <p>Faso Business</p>
         <p>Politique de confidentialite</p>
+        <p>Mentions Legales</p>
     </div>
     <div>
     <a href="contact.php"><h4>Contact et Email</h4></a>
        <a href="75413359"><p>+226 75413359</p></a> 
        <a href="60385320"> <p>+226 60385320</p></a>
         <p>Formulaire</p>
-        <p>Email & Contact</p>
+        <p> <a href="contact.php">Email & Contact</a></p>
        <a href="kiemtorefariratou@gmail.com"> <p>kiemtorefariratou@gmail.com</p></a>
         <p>Burkina Faso "226"</p>
        
