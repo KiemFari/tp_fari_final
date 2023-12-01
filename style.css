@@ -169,7 +169,7 @@ header .logo a span{
  .home{
 
     background-image: linear-gradient(rgba(121, 176, 149, 0.486),rgba(9, 56, 32, 0.7)),url(2.jpg);
-    min-height: 7vh;
+    min-height: 20vh;
     width: 100%;
     background-color: #fff;
     background-position: center;

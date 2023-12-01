@@ -64,7 +64,7 @@ Contactez Burkina"shop", l'ensemble de notre site  est  à votre service</h1>
   <!-- Email input -->
   <div class="form-outline mb-4">
     <input type="email" name="email" id="form4Example2" class="form-control" />
-    <label class="form-label" for="form4Example2">Email address</label>
+    <label class="form-label" for="form4Example2">Email</label>
   </div>
 
   <!-- Message input -->
@@ -75,7 +75,8 @@ Contactez Burkina"shop", l'ensemble de notre site  est  à votre service</h1>
 
 
   <!-- Submit button -->
-  <button type="submit" name="submit" class="btn btn-primary btn-block mb-4">Send</button>
+  <a href="conta.php" type="submit" class="btn btn-primary">Envoyer !</a>
+  <!-- <button type="submit" name="submit" class="btn btn-primary btn-block mb-4">Send</button> -->
 </form>
 </div>
 

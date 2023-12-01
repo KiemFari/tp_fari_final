@@ -26,10 +26,16 @@
         <a href="#"><img src="koka.jpg" title="Burkna pagne" ></a>
         </div>  <br><br>
         <div class="koko">
-        <a href="#"><img src="euni.jpg" title="Burkna pagne" ></a>
-        <a href="#"><img src="mod.jpg" title="Burkna pagne" ></a>
-        <a href="#"><img src="pro.jpg" title="Burkna pagne" ></a>
-        <a href="#"><img src="pot.jpg" title="Burkna pagne"></a>
+        <a href="#"><img src="moder.jpg" title="Burkna pagne" ></a>
+        <a href="#"><img src="mol.jpg" title="Burkna pagne" ></a>
+        <a href="#"><img src="mok.jpg" title="Burkna pagne" ></a>
+        <a href="#"><img src="moh.jpg" title="Burkna pagne"></a>
+        </div>  <br><br>
+        <div class="koko">
+        <a href="#"><img src="bob.jpg" title="Burkna pagne" ></a>
+        <a href="#"><img src="bo.jpg" title="Burkna pagne" ></a>
+        <a href="#"><img src="bobo.jpg" title="Burkna pagne" ></a>
+        <a href="#"><img src="bot.jpg" title="Burkna pagne"></a>
         </div>  <br><br>
         <div class="koko">
         <a href="#"><img src="pint.jpg" title="Burkna pagne" ></a>
@@ -37,12 +43,7 @@
         <a href="#"><img src="pagnerobe.jpg" title="Burkna pagne" ></a>
         <a href="#"><img src="koka.jpg" title="Burkna pagne"></a>
         </div>  <br><br>
-        <div class="koko">
-        <a href="#"><img src="euni.jpg" title="Burkna pagne" ></a>
-        <a href="#"><img src="robekoko.jpg" title="Burkna pagne" ></a>
-        <a href="#"><img src="pagnerobe.jpg" title="Burkna pagne" ></a>
-        <a href="#"><img src="koka.jpg" title="Burkna pagne"></a>
-        </div>  
+       
         </section>
     <!-- lier footer -->
 <?php include ("Footer.php")?>
