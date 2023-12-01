@@ -26,7 +26,7 @@ include("connexionBDD.php");
   <!-- Custom styles for this template -->
   <link href="dashboard.css" rel="stylesheet">
 
-  <title>Creer une ville</title>
+  <title>Ajouter produit</title>
 </head>
 
 <body>

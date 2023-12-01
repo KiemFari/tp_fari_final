@@ -33,7 +33,7 @@
         <p>Entreprise privée</p>
         <p>Faso Business</p>
         <p>Politique de confidentialite</p>
-        <p>Mentions Legales</p>
+        <p>Mentions Légales</p>
     </div>
     <div>
     <a href="contact.php"><h4>Contact et Email</h4></a>

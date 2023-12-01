@@ -7,6 +7,7 @@
     {
         die("Erreur :" .$e->getMessage());
     }
+   ?>
 
 
 

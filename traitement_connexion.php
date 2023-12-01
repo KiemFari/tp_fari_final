@@ -27,10 +27,10 @@ if($requete->rowCount() == 1) {
                 $_SESSION["prenom"] =$form["prenom"];
                 $_SESSION["email"] =$form["email"];
                 $_SESSION["code"] =$form["code"];
-                header("Location:admin.php");
+                header("Location:index.php");
             }
             else{
-                header("Location:index.php");
+                header("Location:admin.php");
                 exit();
             }
         }

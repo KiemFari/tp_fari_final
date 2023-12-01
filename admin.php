@@ -1,4 +1,4 @@
-<!-- <?php
+<?php
 include('con_dbb.php');
 
 @$nom=$_POST['titre'];
@@ -33,7 +33,7 @@ if (isset($submit)) {
 }
 
 
-?> -->
+?> 
 
 <!-- <!DOCTYPE html>
 <html lang="en">
@@ -64,7 +64,7 @@ if (isset($submit)) {
   session_destroy();
   if( isset($_SESSION['id']) && !empty($_SESSION['id']) ){
 
-    header("location:connexionBDD.php");
+    header("location:admin.php");
     exit;
 
 }else{

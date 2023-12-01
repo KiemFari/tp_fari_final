@@ -1,7 +1,13 @@
 <?php
 session_start();
-include('connexionBDD.php');
-
+try
+{
+    $bdd=new PDO('mysql:host=localhost;dbname=commerce','root','');
+}
+catch(Exception $e)
+{
+    die("Erreur :" .$e->getMessage());
+}
  @$email=$_POST['email'];
  @$code=$_POST['code'];
  @$submit=$_POST['submit'];
@@ -22,24 +28,24 @@ if (isset($submit)) {
 
         if($info_users !== false){
 
-            if($info_users['code'] == $code AND $info_users['role'] == 'administrateur'){
+            if($info_users['code'] == $code AND $info_users['role'] == 'utilisateur'){
 
                 $_SESSION['id'] = $info_users['id'];
                 $_SESSION['nom'] = $info_users['nom'];
                 $_SESSION['email'] = $info_users['email'];
                 
-                    header('location:admin.php');
+                    header('location:index.php');
                 
                 
             }
             elseif
-                ($info_users['code'] == $code AND $info_users['role'] == 'utilisateur'){
+                ($info_users['code'] == $code AND $info_users['role'] == 'administrateur'){
 
                 $_SESSION['id'] = $info_users['id'];
                 $_SESSION['nom'] = $info_users['nom'];
                 $_SESSION['email'] = $info_users['email'];
 
-                    header('location:index.php');
+                    header('location:admin.php');
                 
             }
              else{

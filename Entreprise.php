@@ -30,6 +30,34 @@ Nous sommes convaincu que les pub des articles aideront à servir cette finalit�
  les interactions économiques entre tous les professionnels Burkinabè.</p>
  <img src="./sim.jpg" alt="">
 </section>
+<!-- Marketing messaging and featurettes
+      ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+  <section class="K">
+    <div class="container marketing">
+      <div class="row">
+        <div class="col-lg-3">
+          <img class="rounded-circle" src="warranty.png" alt="Generic placeholder image" width="140" height="140">
+          <p>Fournir des produits <br> 100% authentiques</p>
+          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-lg-3">
+          <img class="rounded-circle" src="best-product.png" alt="Generic placeholder image" width="140" height="140">
+          <p>Avec les meilleurs prix <br> au Burkina Faso</p>
+          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-lg-3">
+          <img class="rounded-circle" src="shopping.png" alt="Generic placeholder image" width="140" height="140">
+          <p>Offrir la plateforme <br> d’achat la plus pratique</p>
+          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-lg-3">
+          <img class="rounded-circle" src="call-to-order.png" alt="Generic placeholder image" width="140" height="140">
+          <p>Vous apporter la <br> meilleure assistance au <br> Burkina Faso</p>
+          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        </div>
+      </div>
+  </section>
     <!-- <section class="candidat">
         <div>
             <p>Notre entreprise</p>

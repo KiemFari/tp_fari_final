@@ -173,7 +173,7 @@
                                     class="rounded-circle border border-white">
                             </li>
 
-                            <a href="service.php" class="btn btn-light">Decouvrir</a>
+                            <a href="service.php" class="btn btn-primary">Decouvrir</a>
 
                         </ul>
                     </div>

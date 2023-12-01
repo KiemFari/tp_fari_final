@@ -73,8 +73,32 @@ if(isset($_GET['del'])){
 
     <tr class="total">
     <th>Total : <?=$total?>fcfa</th>
+    
     </tr>
+    
   </table>
+  <h2>Option de paiement</h2>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+  <label class="form-check-label" for="flexRadioDefault1">
+  orange money
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+  <label class="form-check-label" for="flexRadioDefault2">
+     Ligdi cash
+  </label> <br>
+  <boutton class="btn btn-primary">Payer</boutton>
+  <!-- <a href="https://wa.me/+75413359">
+<a href="https://facebook.me/+75413359"></a>
+<i class="fa-brands fa-whatsapp" style="color: #82f028; class="logocal"></i>
+<i class="fa-brands fa-facebook" style="color: #105ce0; class="logocal"></i>
+
+</a>
+</a> -->
+</div>
+
   <!-- <table>
     <tr>
       <th></th>
